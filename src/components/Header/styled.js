@@ -8,7 +8,7 @@ import px2vw from '../../utils/px2vw'
 
 export const HeaderCompon = styled.header`
     position: relative;
-    width: 100vw;
+    width: 100%;
     background-image: url(${Fundo});
     background-size: 100%;
     background-repeat: no-repeat;
@@ -18,6 +18,7 @@ export const HeaderCompon = styled.header`
 export const Wrapper = styled.div`
     background-color: rgba(226, 242, 255, 0.9);
     height: ${px2vw(613)};
+    width:100%;
 
     /* Reponsive Componente Wrapper */
     @media (max-width: 1024px){
@@ -41,6 +42,7 @@ export const Wrapper = styled.div`
     }  
 `
 export const Navegation = styled.nav`
+background-color: brown;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,6 +58,7 @@ export const MenuToggleContainer = styled.div`
 
    
     @media (max-width: 500px){
+        background-color: aqua;
        display: flex;
        right: 0.8rem;
        align-items: center;
@@ -88,6 +91,7 @@ export const MenuToggleicon = styled.img`
     cursor: pointer;
 `
 export const MenuOptions = styled.ul`
+  background-color: beige;
   list-style: none;
   padding: 0 80px;
   overflow: hidden;
@@ -214,18 +218,19 @@ export const Container = styled.div`
 `
 
 export const BoxRigth = styled.article`
+    background-color: aqua;
     color: rgba(62, 62, 62, 1);
     margin-top: 40px;
     margin-left: 80px;
     padding: auto 10px;
     height: 380px;
     width: auto;
-    background-color: aqua;
+   
 
     /* Responsive Componente BoxRigth */
     @media (max-width: 1024px){
         width: auto;
-        height: 16.5rem ;
+        height: 16.6rem ;
         margin-top: 2rem;
         margin-left: 2.5rem;
      }
@@ -234,7 +239,7 @@ export const BoxRigth = styled.article`
        margin-top: 1rem;
        padding: auto 0.5rem;
        width: auto;
-       height: 14rem;
+       height: 14.3rem;
        margin-left: 2.5rem;
      }
      @media (max-width: 768px){
@@ -304,7 +309,7 @@ export const BoxSubTitle = styled.div`
     
   /* Responsive Componente BoxSubTitle  */
     @media(max-width:1024px){
-        width: 23rem;
+        width: 21rem;
     }
     @media(max-width:834px){
         width: 18.5rem;
@@ -330,6 +335,9 @@ export const TextSecod = styled.h2`
 
     @media(max-width:1024px){
        font-size:1rem
+    }
+    @media(max-width:834px){
+       font-size:0.9rem
     }
     @media(max-width:800px){
        font-size:0.9rem
@@ -418,11 +426,11 @@ export const BoxPaints = styled.div`
    /* Responsive Compontent BoxPaints */
     @media(max-width:1024px){
        margin-top: 1.7rem;
-       margin-left:3rem;
+       margin-left:4.5rem;
     }
     @media(max-width:834px){
-       margin-top: 1.5rem;
-       margin-left:2.1rem;
+       margin-top: 1.7rem;
+       margin-left:2.8rem;
     }
     @media(max-width:800px){
        margin-top: 1.5rem;
@@ -499,18 +507,19 @@ export const BoxPaints = styled.div`
 `
 
 export const BoxPoltrona = styled.div`
+    /* background-color: azure; */
     margin-right:80px;
-    margin-top: 23px;
+    margin-top: 37px;
     
     
     /* Responsive Componente BoxPoltrona */
     @media(max-width:1024px){
         margin-right:1rem;
-        margin-top: 0.5rem;
+        margin-top: 0.8rem;
     }
     @media(max-width:834px){
         margin-right:1rem;
-        margin-top: 0.6rem;
+        margin-top: 0.7rem;
     }
     @media(max-width:800px){
         margin-right:0.8rem;
@@ -534,13 +543,16 @@ export const BoxPoltrona = styled.div`
     
 
     img{
+        width: 97%;
+        height:94% ;
+
         @media(max-width:1024px){
-        width: 93%;
-        height: 93%;
+        width: 95%;
+        height: 80%;
        }
         @media(max-width:834px){
         width: 93%;
-        height: 93%;
+        height: 89%;
        }
         @media(max-width:800px){
         width: 93%;

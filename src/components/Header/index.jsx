@@ -14,7 +14,7 @@ import red from '../../assets/img/headerAssets/EllipseRed.png'
 import darkBlue from '../../assets/img/headerAssets/EllipseDarkBlue.png'
 import gray from '../../assets/img/headerAssets/EllipseGray.png'
 import yellow from '../../assets/img/headerAssets/EllipseYellow.png'
-import poltronaLightBlue from '../../assets/img/headerAssets/poltrona azul 2 1.svg'
+import poltronaLightBlue from '../../assets/img/headerAssets/poltrona azulTurq.png'
 
 
 function Header() {
@@ -83,7 +83,7 @@ function Header() {
                                     <img className='color' src={darkBlue} alt="Azul-Escuro" />
                                     <img className='color' src={yellow} alt="Amarelo" />
                                 </BoxPaints>
-                                    <BoxPoltrona>
+                                <BoxPoltrona>
                                         <img className='poltrona' src={poltronaLightBlue} alt="Poltrona Azul claro" />
                                 </BoxPoltrona>
                     </BoxLeft>

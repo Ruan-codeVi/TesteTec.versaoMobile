@@ -2,219 +2,122 @@ import styled from "styled-components";
 
 
 
-export const FooterCompont = styled.footer`
-    background-color: blue;
+export const Container = styled.footer`
     height: 723px;
+    width: 100%;
+`
+export const BoxTitle = styled.div`
+    display: flex;
+    justify-content: center;   
 
     @media(max-width:1024px){
-         height: 33rem;
-    }
+    font-size:2.3rem;
+    margin-top: 4rem;
+    margin-bottom: 1.8rem;
+ }
     @media(max-width:834px){
-        height: 28rem;      
-    }
-    @media(max-width:768px){
-        height: 25rem;      
-    }
-    @media(max-width:600px){
-        height: 25rem;      
-    }
-    @media(max-width:414px){
-        height: auto;      
-    }
- 
+    font-size:2.1rem;
+    margin-top: 3rem;
+    margin-bottom: 1.8rem;
+ }
 `
-export const Title = styled.div`
-    display: flex;
-    justify-content: center;    
-    
-    .title{
-        background-color: antiquewhite;
-        font-size: 48px;
-        font-weight: 500;
-        margin-top: 118px;
-        margin-bottom: 31px;
-        
-        
-        /* Responsive Classe title */
-        @media(max-width:1024px){
-           font-size:2.3rem;
-           margin-top: 5rem;
-           margin-bottom: 1.8rem;
-        }
-
-        @media(max-width:834px){
-           font-size: 2rem;
-           margin-top: 3.2rem;
-        }
-        @media(max-width:800px){
-           font-size: 1.7rem;
-           margin-top: 3.5rem;
-        }
-        @media(max-width:768px){
-           font-size: 1.6rem;
-           margin-top: 3rem;
-        }
-        @media(max-width:600px){
-           font-size: 1.4rem;
-           margin-top: 2.5rem;
-        }
-    }
-
+export const Title = styled.h1`
+    background-color: antiquewhite;
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 118px;
+    margin-bottom: 31px;
 `
 
-export const Wrapper = styled.div`
-    /* background-color: yellow; */
-    height: 250px;
+export const BoxUp = styled.div`
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    @media(max-width:414px){
-        justify-content: center;
-        flex-direction: row;
-         height: auto;
-    }
-
-.boxExtra{
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: black;
+`
+export const BoxWrapper = styled.div`
     /* background-color: rgba(255, 255, 255, 1); */
+    background-color: brown;
+    background: ${(props) => props.background};
+    display: flex;
+    align-items: center;
     width: 407px;
     height: 164px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;  
-    
-    /* Responsive Classe BoxExtra */
+    border-radius: 10px;
+
     @media(max-width:1024px){
-         width :20rem;
-         height: 7rem;
+          width :20.5rem;
+          height: 7rem;
     }
     @media(max-width:834px){
-         width :16rem;
-         height: 6rem;
-         margin-right: 0.3rem;
+          width :16.2rem;
+          height: 7rem;
     }
-    @media(max-width:800px){
-         width :15.3rem;
-         height: 5.5rem;
-    }
-    @media(max-width:768px){
-         width :14.7rem;
-         height: 6rem;
-    }
-    @media(max-width:600px){
-         width :11.7rem;
-         height: 6.2rem;
-         margin-right: 0.2rem;
-    }
-    @media(max-width:414px){
-         width :11.7rem;
-         height: 6rem;
-         margin:0.2rem 0.2rem;
-    }
-}
-.white{
-    background-color: rgba(62, 62, 62, 1);
+`
+export const BoxElement = styled.div`
+    background-color: yellow;
+    display: flex;
+    align-items: center; 
     
-}
+    @media(max-width:1024px){
+         margin-left: 0.7em;
+        }
 
-.boxExtra img{
-    background-color: antiquewhite;
-    width: 69.58px;
-    height: 75.91px;
 
-    /* Responsive Classe BoxExtra tag Img */
-    @media(max-width:834px){
-         width :2.9rem;
-         height:2.9rem;
-         margin-left: 0.5rem;
-    }
-    @media(max-width:768px){
-         width :2.7rem;
-         height:2.7rem;
-    }
-    @media(max-width:600px){
-         width :2.2rem;
-         height:2.2rem;
-    }
-}
+    img{
+        margin-left: 36px;
+        background-color: blue;
+        width: 70px;
+        height: 70px;
+        
+        @media(max-width:1024px){
+         width :20%;
+         height: 20%;
+         margin-left: 0;
+        }
+        @media(max-width:834px){
+         width :19%;
+         height: 19%;
+         margin-left: 0;
+        }
+    }    
+`
 
-.boxCenter{
-    background-color: brown;
-    width: 213.50px;
+export const BoxInfos = styled.div`
     margin-left: 25px;
+    color: rgba(62, 62, 62, 1);
+    color: ${(props)=>props.color};
+    background-color: orange;
 
-    /* Responsive Classe BoxCenter */
-    @media(max-width:834px){
-       margin-left: 0.8rem;
-    }
-    @media(max-width:768px){
-       margin-left: 0.7rem;
-    }
-    @media(max-width:600px){
-       margin-left: 0.6rem;
-    }
+ @media(max-width:834px){
+        margin-left: 1.2rem;
 }
-
-.boxCenter span{
+`
+export const Category = styled.span`
     font-weight: 700;
     font-size: 20px;
-    color: rgba(62, 62, 62, 1);
-    background-color: yellow;
 
-    /* Responsive Classe BoxCenter tag Span */
     @media(max-width:834px){
         font-size: 1rem;
-    }
-    @media(max-width:768px){
-        font-size: 0.9rem;
-    }
-    @media(max-width:600px){
-        font-size: 0.8rem;
-    }
-}
-.boxCenter p{
+        }
+`
+export const Description = styled.p`
     margin-top: 9px;
     font-weight: 400px;
     font-size: 16px;
-    color: rgba(62, 62, 62, 1);
 
-    /* Responsive Classe BoxCenter tag P */
     @media(max-width:834px){
         font-size: 0.9rem;
-    }
-    @media(max-width:768px){
-        font-size: 0.8rem;
-    }
-    @media(max-width:600px){
-        font-size: 0.7rem;
-    }
-}
-.boxCenter .textWhite{
-    color: rgba(255, 255, 255, 1);
-}
-
+        }
 `
-export const BoxSuperior = styled.div`
-    display: flex;
-    background-color: black;
 
-    @media(max-width:414px){
-      flex-direction: column;
-    }
-
-`
-export const BoxInferior = styled.div`
-    background-color: brown;
+export const BoxDown = styled.div`
+    background-color: blueviolet;
     margin-top: 31px;
-    margin-bottom: 153px;
     display: flex;
+    justify-content: space-evenly;
+    width:100%;                                                                                                                                                                                                                                                                                                                                                                                                                 : ;
 
-    @media(max-width:414px){
-      flex-direction: column;
-      margin: 0;
-    }
 `
+

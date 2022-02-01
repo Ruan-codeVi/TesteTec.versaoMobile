@@ -11,8 +11,8 @@ const GlobalStyled = createGlobalStyle`
 }
 
 html, body, #root{
-min-width:100vw;
-min-height: 100vh;
+max-width:100vw;
+max-height: 100vh;
 font-size: 16px;
 -webkit-font-smooting: antialiased;
 text-rendering: optimizeLegibility;
@@ -21,7 +21,8 @@ text-rendering: optimizeLegibility;
 body{
     /* background-color: blueviolet; */
     font-family: "Roboto", sans-serif;
-    background: rgba(255, 255, 255, 1);
+    /* background: rgba(255, 255, 255, 1); */
+    background-color: blue;
 }
 `
 export default GlobalStyled;

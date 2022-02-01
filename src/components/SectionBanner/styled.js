@@ -7,7 +7,8 @@ export const Banner = styled.section`
     background-image: url(${BannerFundo});
     background-repeat: no-repeat;
     z-index: 999;
-    height: 600.01px;
+    height: 620.01px;
+    background-color: pink;
 
     /* Responsive Componente Banner */
     @media(max-width:1024px){
@@ -33,6 +34,8 @@ export const Banner = styled.section`
          }
 `
 export const ContainerBanner = styled.div`
+    /* background-color: aquamarine; */
+    width: 100%;
     display: flex;
     justify-content: space-between;
 
@@ -72,8 +75,13 @@ export const BoxLeft = styled.div`
             margin-top: 0.5rem;
          }
 
-.titulo{
-    font-weight: 700;
+    .Avista{
+        
+    }
+
+`
+export const Title = styled.h1`
+     font-weight: 700;
     font-size: 48px;
     margin-bottom: 12px;
 
@@ -101,8 +109,9 @@ export const BoxLeft = styled.div`
         font-size: 1.3rem;
         margin-bottom: 0.7rem;
     }
-}
-    .descricao{
+
+`
+export const Description = styled.p`
         font-weight: 300;
         font-size:14px;
         width: 290px;
@@ -141,50 +150,6 @@ export const BoxLeft = styled.div`
             width: auto;
             height: auto;
       }
-    }
-
-    .text{
-        font-weight: 400;
-        font-size: 18px;
-
-        @media(max-width:834px){
-            font-size:1rem
-      }
-        @media(max-width:768px){
-            font-size:0.9rem
-      }
-        @media(max-width:600px){
-            font-size:0.8rem
-      }
-        @media(max-width:414px){
-            font-size:1rem
-      }   
-    }
-    .precoAntigo{
-        text-decoration: line-through;
-    }
-
-    .Avista{
-        font-weight: 700;
-        font-size: 48px;
-
-        /* Responsive Classe Avista */
-        @media(max-width:1024px){
-            font-size: 2.5rem;
-         }
-        @media(max-width:834px){
-            font-size: 2.3rem;
-         }
-        @media(max-width:800px){
-            font-size: 2rem;
-         }
-        @media(max-width:768px){
-            font-size: 1.9rem;
-         }
-        @media(max-width:600px){
-            font-size: 1.4rem;
-         }
-    }
 
 `
 export const Logo = styled.div`
@@ -226,19 +191,76 @@ export const DetailsBox = styled.div`
     @media(max-width:414px){
         flex-direction: column;
         }
-    
-    .preco{
-        display: flex;
-        flex-direction: column;
-        /* background-color: blue; */
+`
+export const Price = styled.div`
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
 
-    }
-    .selecionarCor{
-        display: flex;
-        flex-direction: column;
-        width: 96px;
-        margin-left: 90px;
-        /* background-color: blueviolet; */
+`
+export const OldPrice = styled.span`
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: line-through;
+
+        @media(max-width:834px){
+            font-size:1rem
+      }
+        @media(max-width:768px){
+            font-size:0.9rem
+      }
+        @media(max-width:600px){
+            font-size:0.8rem
+      }
+        @media(max-width:414px){
+            font-size:1rem
+      }   
+    
+`
+export const ForCash = styled.span`
+    font-weight: 700;
+    font-size: 48px;
+
+        /* Responsive Classe Avista */
+        @media(max-width:1024px){
+            font-size: 2.5rem;
+         }
+        @media(max-width:834px){
+            font-size: 2.3rem;
+         }
+        @media(max-width:800px){
+            font-size: 2rem;
+         }
+        @media(max-width:768px){
+            font-size: 1.9rem;
+         }
+        @media(max-width:600px){
+            font-size: 1.4rem;
+         }
+`
+export const Payment = styled.span`
+    font-weight: 400;
+    font-size: 18px;
+
+    @media(max-width:834px){
+            font-size:1rem
+      }
+        @media(max-width:768px){
+            font-size:0.9rem
+      }
+        @media(max-width:600px){
+            font-size:0.8rem
+      }
+        @media(max-width:414px){
+            font-size:1rem
+      }   
+`
+export const SelectionColor = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 96px;
+    margin-left: 90px;
+    background-color: blueviolet;
 
         @media(max-width:834px){
             margin-left: 6.3rem;
@@ -257,12 +279,12 @@ export const DetailsBox = styled.div`
             margin-left: 0;
             width: auto;
         }
-        
-    }
-    .selecionarCor span{
-        text-align: center;
-        /* background-color: brown; */
-        margin-bottom: 24.3px;
+
+`
+export const TextColor = styled.span`
+    text-align: center;
+    background-color: brown;
+    margin-bottom: 24.3px;
 
         @media(max-width:834px){
             margin-bottom: 0.9rem;
@@ -277,12 +299,11 @@ export const DetailsBox = styled.div`
             margin-bottom: 0.8rem;
             margin-top: 1rem;
         }
-    }
-    
-    .selecionarCor  .cores{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
+`
+export const Colors = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
         /* background-color:white; */
        
        img{
@@ -307,9 +328,7 @@ export const DetailsBox = styled.div`
             margin: 0 0.3rem
         }
        }
-    }
-    
-        .cores img:hover{
+       img:hover{
         width: 16px;
         height: 16px;
 
@@ -327,6 +346,7 @@ export const DetailsBox = styled.div`
             height: 0.5rem;
         }
     }
+
 `
 export const BoxRigth = styled.div`
     width: 483px;
