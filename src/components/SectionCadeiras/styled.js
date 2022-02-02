@@ -131,6 +131,9 @@ export const BoxTitle = styled.div `
   @media(max-width: 834px){
        width: 11rem;
       }
+  @media(max-width: 800px){
+       width: 10rem;
+      }
 
 `;
 export const Title = styled.h1`
@@ -142,6 +145,9 @@ export const Title = styled.h1`
       }
     @media(max-width: 834px){
        font-size: 1.5rem;
+      }
+    @media(max-width: 800px){
+       font-size: 1.4rem;
       }
 `;
 
@@ -194,7 +200,7 @@ export const ArrowRight = styled.div `
         width: 2.8rem;
         height: 2.8rem;
         margin-left: 2rem;
-        margin-top: 2.6rem; 
+        margin-top: 2.4rem; 
       }
 
     @media(max-width: 768px){
@@ -236,22 +242,9 @@ export const BoxPolt = styled.div `
     @media(max-width: 834px){
       width: 33rem;
       }
-/*   
-    @media(max-width: 768px){
-        margin-left: 3rem;
-        width: 100%;
+    @media(max-width: 800px){
+      width: 31rem;
       }
-
-    @media(max-width: 600px){
-        margin-left: 2rem;
-        width: 100%;
-      }
-
-    @media(max-width: 414px){
-        margin-left: 0;
-        margin-top: 1.5rem;
-        width: 100%;
-      } */
     
  
 `
@@ -277,6 +270,9 @@ export const ContatinerChair = styled.div`
       }
       @media(max-width: 834px){
         width: 10rem;
+      }
+      @media(max-width: 800px){
+        width: 9.3rem;
       }
       
       :hover{
@@ -320,6 +316,10 @@ export const InfoComp = styled.span`
         font-size: 1.3rem;
         width: 6.5rem;
       }
+      @media(max-width: 800px){
+        font-size: 1.2rem;
+        width: 6.1rem;
+      }
 
 `
 export const BoxArrowRight02 = styled.div `
@@ -327,4 +327,13 @@ export const BoxArrowRight02 = styled.div `
   margin-top: 60px;
   margin-left: 20px;
   cursor: pointer;
+
+img{
+
+  @media(max-width: 800px){
+        width: 65%;
+        height: 65%;
+      }
+}
+
 `;
