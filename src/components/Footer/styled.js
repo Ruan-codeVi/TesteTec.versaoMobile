@@ -3,8 +3,18 @@ import styled from "styled-components";
 
 
 export const Container = styled.footer`
+    background-color: yellowgreen;
     height: 723px;
     width: 100%;
+
+    @media(max-width:834px){
+          height:36rem ;
+          width: 100%;
+    }
+    @media(max-width:800px){
+          height:35rem ;
+          width: 100%;
+    }
 `
 export const BoxTitle = styled.div`
     display: flex;
@@ -27,13 +37,18 @@ export const Title = styled.h1`
     font-weight: 500;
     margin-top: 118px;
     margin-bottom: 31px;
+
+    @media(max-width:800px){
+          font-size: 2rem;
+          margin-top: 6rem;
+    }
 `
 
 export const BoxUp = styled.div`
+background-color: black;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    background-color: black;
 `
 export const BoxWrapper = styled.div`
     /* background-color: rgba(255, 255, 255, 1); */
@@ -52,6 +67,10 @@ export const BoxWrapper = styled.div`
     }
     @media(max-width:834px){
           width :16.2rem;
+          height: 7rem;
+    }
+    @media(max-width:800px){
+          width :16rem;
           height: 7rem;
     }
 `
@@ -85,13 +104,16 @@ export const BoxElement = styled.div`
 `
 
 export const BoxInfos = styled.div`
+    background-color: orange;
     margin-left: 25px;
     color: rgba(62, 62, 62, 1);
     color: ${(props)=>props.color};
-    background-color: orange;
 
  @media(max-width:834px){
         margin-left: 1.2rem;
+}
+ @media(max-width:800px){
+        margin-left: 1rem;
 }
 `
 export const Category = styled.span`
