@@ -204,10 +204,10 @@ export const ArrowRight = styled.div `
       }
 
     @media(max-width: 768px){
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2.6rem;
+        height: 2.6rem;
         margin-left: 2rem;
-        margin-top: 2rem; 
+        margin-top: 1.8rem; 
       }
 
     @media(max-width: 600px){
@@ -240,10 +240,13 @@ export const BoxPolt = styled.div `
       }
 
     @media(max-width: 834px){
-      width: 33rem;
+        width: 33rem;
       }
     @media(max-width: 800px){
-      width: 31rem;
+        width: 31rem;
+      }
+    @media(max-width: 768px){
+        width: 28rem;
       }
     
  
@@ -274,6 +277,9 @@ export const ContatinerChair = styled.div`
       @media(max-width: 800px){
         width: 9.3rem;
       }
+      @media(max-width: 768px){
+        width: 8.5rem;
+      }
       
       :hover{
       background-color:rgba(246, 246, 246, 1);
@@ -288,6 +294,10 @@ export const ContatinerChair = styled.div`
         width: 75%;
         height: 45%;
       }
+        @media(max-width: 768px){
+        width: 70%;
+        height: 40%;
+      }
       
        
     }
@@ -301,7 +311,6 @@ export const BoxInfosChair = styled.div`
     align-content: center;
     margin-top:25px;
 
-   
     
 `
 export const InfoComp = styled.span`
@@ -320,6 +329,10 @@ export const InfoComp = styled.span`
         font-size: 1.2rem;
         width: 6.1rem;
       }
+      @media(max-width: 768px){
+        font-size: 1rem;
+        width: 5rem;
+      }
 
 `
 export const BoxArrowRight02 = styled.div `
@@ -330,9 +343,18 @@ export const BoxArrowRight02 = styled.div `
 
 img{
 
+  @media(max-width: 834px){
+        width: 69%;
+        height: 69%;
+      }
   @media(max-width: 800px){
         width: 65%;
         height: 65%;
+      }
+  @media(max-width: 768px){
+        width: 65%;
+        height: 65%;
+        margin-left: 0;
       }
 }
 

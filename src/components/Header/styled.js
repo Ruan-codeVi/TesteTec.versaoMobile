@@ -114,6 +114,11 @@ export const MenuOptions = styled.ul`
         background-color: bisque;
         padding: 0 2.5rem;
     }
+  @media (max-width: 600px){
+        font-size:0.7rem;
+        background-color: bisque;
+        padding: 0 0.4rem;
+    }
 
   .option a {
     display: block;
@@ -279,7 +284,7 @@ export const BoxTitle = styled.div`
       width: 14rem; 
      }
      @media(max-width: 768px){
-      width: 12rem; 
+      width: 13rem; 
      }
      @media(max-width: 600px){
       width: 10rem; 
@@ -315,10 +320,10 @@ export const BoxSubTitle = styled.div`
         width: 18.5rem;
     }
     @media(max-width:800px){
-        width: 19rem;
+        width: 18.9rem;
     }
     @media(max-width:768px){
-        width: 18.5rem;
+        width: 16.5rem;
     }
     @media(max-width:600px){
         width: 14.5rem;
@@ -342,6 +347,9 @@ export const TextSecod = styled.h2`
     @media(max-width:800px){
        font-size:0.9rem
     }
+    @media(max-width:768px){
+       font-size:0.8rem
+    }
 `
 
 
@@ -352,7 +360,7 @@ export const BoxButtons = styled.div`
         margin-top: 1.7rem;
     }
     @media(max-width:768px){
-        margin-top: 1.5rem;
+        margin-top: 1.2rem;
     }
     @media(max-width:600px){
         margin-top: 1rem;
@@ -438,7 +446,7 @@ export const BoxPaints = styled.div`
     }
     @media(max-width:768px){
        margin-top: 1.5rem;
-       margin-left:1.6rem;
+       margin-left:2.5rem;
     }
     @media(max-width:600px){
        margin-top: 0.4rem;
@@ -519,15 +527,15 @@ export const BoxPoltrona = styled.div`
     }
     @media(max-width:834px){
         margin-right:1rem;
-        margin-top: 0.7rem;
+        margin-top: 0.9rem;
     }
     @media(max-width:800px){
         margin-right:0.5rem;
-        margin-top: 1.1rem;
+        margin-top: 1rem;
     }
     @media(max-width:768px){
-        margin-right:0.7rem;
-        margin-top: 0.5rem;
+        margin-right:0.2rem;
+        margin-top: 0.7rem;
     }
     @media(max-width:600px){
         margin-right:0.9rem;
@@ -551,20 +559,20 @@ export const BoxPoltrona = styled.div`
         height: 80%;
        }
         @media(max-width:834px){
-        width: 93%;
-        height: 89%;
+        width: 92%;
+        height: 87%;
        }
         @media(max-width:800px){
         width: 93%;
         height: 88%;
        }
         @media(max-width:768px){
-        width: 93%;
-        height: 93%;
+        width: 90%;
+        height: 87%;
        }
         @media(max-width:600px){
-        width: 95.5%;
-        height: 95.5%;
+        width: 90%;
+        height: 88%;
        }
         @media(max-width:414px){
         width: 60.5%;
