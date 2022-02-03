@@ -4,11 +4,12 @@ import { Banner, ContainerBanner, BoxLeft,
     TextColor, Colors,
     OldPrice, ForCash,Payment ,BoxRigth } from './styled.js'
 
+import produtos from '../../data'
 import logoWhite from '../../assets/img/sectionAssets/logoBranco.png'
 import cicleRed from '../../assets/img/headerAssets/EllipseRed.png'
 import cicleBlack from '../../assets/img/sectionAssets/corPreta.png'
 import cicleWhite from '../../assets/img/sectionAssets/corBranca.png'
-import poltronaBlackRed from '../../assets/img/sectionAssets/poltrona gamer 1.png'
+
 
 function SectionBanner() {
     return (
@@ -30,9 +31,20 @@ function SectionBanner() {
                     </Description>
                     <DetailsBox>
                             <Price>
-                                <OldPrice> R$2200 </OldPrice>
-                                <ForCash>R$1999</ForCash>
-                                <Payment>A vista</Payment> 
+                                {produtos.map((poltrona)=> {
+                                        if(poltrona.id=== 12){
+
+                                            return( 
+                                            <>
+                                             <OldPrice> R${poltrona.precoAntigo}</OldPrice>
+                                             <ForCash key={poltrona.id}>R${poltrona.preco}</ForCash>
+                                             <Payment>A vista</Payment> 
+                                            </>
+                                             )
+                                        }
+
+                                    return   produtos ? true : null  
+                                })}
                             </Price>
                             <SelectionColor>
                                 <TextColor>
@@ -47,7 +59,12 @@ function SectionBanner() {
                     </DetailsBox>
                 </BoxLeft>
                 <BoxRigth>
-                    <img src={poltronaBlackRed} alt="img poltrona Gamer" />
+                {produtos.map((poltrona)=>{
+                        if(poltrona.id === 12)
+                            return <img key={poltrona.id} src={poltrona.img} alt="cadeira gamer preta/vermelha" />
+
+                      return produtos ? true : null;
+                    })}
             </BoxRigth>
         </ContainerBanner>
     </Banner>

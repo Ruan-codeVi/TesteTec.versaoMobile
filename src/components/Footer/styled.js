@@ -21,14 +21,14 @@ export const BoxTitle = styled.div`
     justify-content: center;   
 
     @media(max-width:1024px){
-    font-size:2.3rem;
-    margin-top: 4rem;
-    margin-bottom: 1.8rem;
+        font-size:2.3rem;
+        margin-top: 4rem;
+        margin-bottom: 1.8rem;
  }
     @media(max-width:834px){
-    font-size:2.1rem;
-    margin-top: 3rem;
-    margin-bottom: 1.8rem;
+        font-size:2.1rem;
+        margin-top: 3rem;
+        margin-bottom: 1.8rem;
  }
 `
 export const Title = styled.h1`
@@ -39,8 +39,8 @@ export const Title = styled.h1`
     margin-bottom: 31px;
 
     @media(max-width:800px){
-          font-size: 2rem;
-          margin-top: 6rem;
+        font-size: 2rem;
+        margin-top: 6rem;
     }
 `
 
@@ -62,16 +62,20 @@ export const BoxWrapper = styled.div`
     border-radius: 10px;
 
     @media(max-width:1024px){
-          width :20.5rem;
-          height: 7rem;
+        width :20.5rem;
+        height: 7rem;
     }
     @media(max-width:834px){
-          width :16.2rem;
-          height: 7rem;
+        width :16.2rem;
+        height: 7rem;
     }
     @media(max-width:800px){
-          width :16rem;
-          height: 7rem;
+        width :16rem;
+        height: 7rem;
+    }
+    @media(max-width:768px){
+        width :15rem;
+        height: 6.8rem;
     }
 `
 export const BoxElement = styled.div`
@@ -80,8 +84,8 @@ export const BoxElement = styled.div`
     align-items: center; 
     
     @media(max-width:1024px){
-         margin-left: 0.7em;
-        }
+        margin-left: 0.7em;
+    }
 
 
     img{
@@ -90,17 +94,17 @@ export const BoxElement = styled.div`
         width: 70px;
         height: 70px;
         
-        @media(max-width:1024px){
-         width :20%;
-         height: 20%;
-         margin-left: 0;
-        }
-        @media(max-width:834px){
-         width :19%;
-         height: 19%;
-         margin-left: 0;
-        }
-    }    
+    @media(max-width:1024px){
+        width :20%;
+        height: 20%;
+        margin-left: 0;
+    }
+    @media(max-width:834px){
+        width :19%;
+        height: 19%;
+        margin-left: 0;
+    }
+}    
 `
 
 export const BoxInfos = styled.div`
@@ -109,12 +113,15 @@ export const BoxInfos = styled.div`
     color: rgba(62, 62, 62, 1);
     color: ${(props)=>props.color};
 
- @media(max-width:834px){
+    @media(max-width:834px){
         margin-left: 1.2rem;
-}
- @media(max-width:800px){
-        margin-left: 1rem;
-}
+    }
+    @media(max-width:800px){
+         margin-left: 1rem;
+    }
+    @media(max-width:768px){
+        margin-left: 0.8rem;
+    }
 `
 export const Category = styled.span`
     font-weight: 700;
@@ -122,7 +129,10 @@ export const Category = styled.span`
 
     @media(max-width:834px){
         font-size: 1rem;
-        }
+    }
+    @media(max-width:768px){
+        font-size: 0.9rem;
+    }
 `
 export const Description = styled.p`
     margin-top: 9px;
@@ -131,7 +141,10 @@ export const Description = styled.p`
 
     @media(max-width:834px){
         font-size: 0.9rem;
-        }
+    }
+    @media(max-width:768px){
+        font-size: 0.8rem;
+    }
 `
 
 export const BoxDown = styled.div`
