@@ -21,8 +21,8 @@ text-rendering: optimizeLegibility;
 body{
     /* background-color: blueviolet; */
     font-family: "Roboto", sans-serif;
-    /* background: rgba(255, 255, 255, 1); */
-    background-color: blue;
+    background: rgba(255, 255, 255, 1);
+   
 }
 `
 export default GlobalStyled;

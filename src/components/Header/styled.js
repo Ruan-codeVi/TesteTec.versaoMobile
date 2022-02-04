@@ -195,7 +195,7 @@ export const Logo = styled.div`
     }
 
     @media (max-width: 600px){
-        margin-left: 2rem;
+        margin-left: 1.5rem;
     }
    
     img{
@@ -279,7 +279,7 @@ export const BoxRigth = styled.article`
        padding: auto 0.4rem;
        width: auto;
        height: 10.7rem;
-       margin-left: 2rem; 
+       margin-left: 1.5rem; 
     }
 
     @media(max-width: 414px){
@@ -575,7 +575,7 @@ export const BoxPoltrona = styled.div`
     }
     @media(max-width:600px){
         margin-right:0;
-        margin-top: 0.7rem;
+        margin-top: 1.2rem;
     }
     @media(max-width:414px){
         display: flex;

@@ -14,18 +14,23 @@ export const Banner = styled.section`
     @media(max-width:1024px){
         height: 30rem;
     }
+    
     @media(max-width:834px){
         height: 24.5rem;
     }
+
     @media(max-width:800px){
         height: 23.5rem;
     }
+
     @media(max-width:768px){
         height: 22.5rem;
     }
+
     @media(max-width:600px){
         height: 18rem;
     }
+
     @media(max-width:414px){
         height: auto;
         margin-top: 16rem;

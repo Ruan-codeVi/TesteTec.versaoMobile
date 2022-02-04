@@ -30,7 +30,8 @@ export const Section = styled.section `
     }
 
     @media(max-width: 600px){
-        height: 28rem;
+        height: 45rem;
+        /* height: auto; */
         width: 100%;
     }
 `;
@@ -69,9 +70,9 @@ export const Wrapper = styled.div `
     }
 
     @media(max-width: 600px){
-        width: 100%;
-        height: 16rem;
-        margin-top: 7rem;
+       flex-direction: column;
+       align-items: center;
+       
     }
 
     @media(max-width: 414px){
@@ -107,7 +108,8 @@ export const BoxInfos = styled.div `
     }
 
     @media(max-width: 600px){
-       margin-left: 2rem;
+        width:auto;
+        text-align: center;
     }
 
     @media(max-width: 414px){
@@ -138,6 +140,10 @@ export const BoxTitle = styled.div `
 
     @media(max-width: 800px){
         width: 10rem;
+        margin-bottom: 1.5rem;
+    }
+    @media(max-width: 600px){
+        margin-bottom: 1rem;
     }
 
 `;
@@ -157,6 +163,9 @@ export const Title = styled.h1`
     @media(max-width: 800px){
        font-size: 1.4rem;
     }
+    @media(max-width: 600px){
+       font-size: 1.5rem;
+    }
 `;
 
 export const SubTitle = styled.div `
@@ -165,7 +174,10 @@ export const SubTitle = styled.div `
 
     @media(max-width: 834px){
         width: 13rem;
-    }    
+    }      
+    @media(max-width: 600px){
+        width: 26rem;
+    }      
 `;
 
 export const Description = styled.p`
@@ -174,6 +186,9 @@ export const Description = styled.p`
 
     @media(max-width: 834px){
        font-size: 0.8rem;
+    }    
+    @media(max-width: 600px){
+       font-size: 0.9rem;
     }    
 `;
 
@@ -219,10 +234,7 @@ export const ArrowRight = styled.div `
     }
 
     @media(max-width: 600px){
-        width: 2.3rem;
-        height: 2.3rem;
-        margin-left: 1.8rem;
-        margin-top: 1.8rem; 
+        display: none;
     }
 
     @media(max-width: 414px){
@@ -258,6 +270,9 @@ export const BoxPolt = styled.div `
     @media(max-width: 768px){
         width: 28rem;
     }  
+    @media(max-width: 600px){
+        width: 21.5rem;
+    }  
 `;
 
 export const BoxChair = styled.div`
@@ -291,6 +306,10 @@ export const ContatinerChair = styled.div`
 
     @media(max-width: 768px){
         width: 8.5rem;
+    }
+
+    @media(max-width: 600px){
+        width: 6.5rem;
     }
       
     :hover{
@@ -371,6 +390,11 @@ img{
     @media(max-width: 768px){
         width: 65%;
         height: 65%;
+        margin-left: 0;
+    }
+    @media(max-width: 600px){
+        width: 67%;
+        height: 67%;
         margin-left: 0;
     }
 }
