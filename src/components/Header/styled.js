@@ -14,7 +14,8 @@ export const HeaderCompon = styled.header`
     background-repeat: no-repeat;
     z-index: 999;
     
-`
+`;
+
 export const Wrapper = styled.div`
     background-color: rgba(226, 242, 255, 0.9);
     height: ${px2vw(613)};
@@ -40,13 +41,15 @@ export const Wrapper = styled.div`
     @media (max-width: 414px){
        height:11.2rem
     }  
-`
+`;
+
 export const Navegation = styled.nav`
 background-color: brown;
     display: flex;
     align-items: center;
     justify-content: space-between;
-`
+`;
+
 export const MenuToggleContainer = styled.div`
     display: none; 
     z-index: 900;
@@ -58,14 +61,15 @@ export const MenuToggleContainer = styled.div`
 
    
     @media (max-width: 500px){
-        background-color: aqua;
+       background-color: aqua;
        display: flex;
        right: 0.8rem;
        align-items: center;
        position: absolute;
        overflow: hidden;
     }
-`
+`;
+
 export const MenuToggleCloseContainer = styled.div`
     display: none; 
     z-index: 900;
@@ -83,13 +87,16 @@ export const MenuToggleCloseContainer = styled.div`
        overflow: hidden;
     }
 
-`
+`;
+
 export const MenuToggCloseleicon = styled.img`
     cursor: pointer;
-`
+`;
+
 export const MenuToggleicon = styled.img`
     cursor: pointer;
-`
+`;
+
 export const MenuOptions = styled.ul`
   background-color: beige;
   list-style: none;
@@ -99,44 +106,47 @@ export const MenuOptions = styled.ul`
   font-weight: 700;
   display: flex;
 
-  @media (max-width: 1024px){
+    @media (max-width: 1024px){
         font-size:1.3rem;
         background-color: bisque;
         padding: 0 3.5rem;
     }
-  @media (max-width: 834px){
+
+    @media (max-width: 834px){
         font-size:1rem;
         background-color: bisque;
         padding: 0 2.9rem;
     }
-  @media (max-width: 800px){
+
+    @media (max-width: 800px){
         font-size:1rem;
         background-color: bisque;
         padding: 0 2.5rem;
     }
-  @media (max-width: 600px){
+
+    @media (max-width: 600px){
         font-size:0.7rem;
         background-color: bisque;
         padding: 0 0.4rem;
     }
 
-  .option a {
-    display: block;
-    color:  rgba(62, 62, 62, 1);
-    text-align: center;
-    padding: 16px;
-    outline: none;
-    text-decoration: none;
-  }
+    .option a {
+        display: block;
+        color:  rgba(62, 62, 62, 1);
+        text-align: center;
+        padding: 16px;
+        outline: none;
+        text-decoration: none;
+    }
 
-  .option a:hover{
-      text-decoration: underline solid;
-      text-decoration-color:red;
-      cursor: pointer;
-      transition: 0.3s linear;
-  }
+    .option a:hover{
+        text-decoration: underline solid;
+        text-decoration-color:red;
+        cursor: pointer;
+        transition: 0.3s linear;
+    }
 
- @media (max-width: 500px){
+    @media (max-width: 500px){
        display: ${({show})=> show ? 'block' : 'none'};
        position: fixed;
        z-index: 4;
@@ -148,21 +158,22 @@ export const MenuOptions = styled.ul`
        padding: 0;
        
 
-       .option{
-           width: 100%;
-       }
-       .option a{
-            color: #FFF;
-       }
-       .option a:hover{
+    .option{
+       width: 100%;
+    }
+    .option a{
+       color: #FFF;
+    }
+    .option a:hover{
         color: rgba(62, 62, 62, 1);
         text-decoration: underline solid;
         text-decoration-color:red;
         cursor: pointer;
         transition: 0.3s linear;
-       }
     }
-`
+}
+`;
+
 export const Logo = styled.div`
     margin-left: 80px;
 
@@ -170,57 +181,64 @@ export const Logo = styled.div`
     @media (max-width: 1024px){
         margin-left: 2.5rem;
     }
+
     @media (max-width: 834px){
         margin-left: 2.5rem;
     }
+
     @media (max-width: 800px){
         margin-left: 2.5rem;
     }
+
     @media (max-width: 768px){
         margin-left: 2.5rem;
     }
+
     @media (max-width: 600px){
         margin-left: 2rem;
     }
    
     img{
         /* Reponsive da tag */
-         @media (max-width: 1024px){
-            width: 95%;
-            height: 95%;
-        }
-
-        @media (max-width: 834px){
-            width: 70%;
-            height: 70%;
-        }
-        @media (max-width: 800px){
-            width: 69%;
-            height: 69%;
-        }
-        @media (max-width: 768px){
-            width: 65%;
-            height: 65%;
-        }
-        @media (max-width: 600px){
-            width: 53%;
-            height: 53%;
-        }
+    @media (max-width: 1024px){
+        width: 95%;
+        height: 95%;
     }
 
-`
+    @media (max-width: 834px){
+        width: 70%;
+        height: 70%;
+    }
+
+    @media (max-width: 800px){
+        width: 69%;
+        height: 69%;
+    }
+
+    @media (max-width: 768px){
+        width: 65%;
+        height: 65%;
+    }
+
+    @media (max-width: 600px){
+        width: 53%;
+        height: 53%;
+    }
+}
+
+`;
 
 export const Container = styled.div`
     display: flex;
     justify-content:space-between;
 
-     @media (max-width: 414px){
+    @media (max-width: 414px){
         display: flex;
         flex-direction: column-reverse; 
         align-items: center;
-     }
+    }
 
-`
+`;
 
 export const BoxRigth = styled.article`
     background-color: aqua;
@@ -238,38 +256,40 @@ export const BoxRigth = styled.article`
         height: 16.6rem ;
         margin-top: 2rem;
         margin-left: 2.5rem;
-     }
+    }
 
-     @media (max-width: 834px){
+    @media (max-width: 834px){
        margin-top: 1rem;
        padding: auto 0.5rem;
        width: auto;
        height: 14.3rem;
        margin-left: 2.5rem;
-     }
-     @media (max-width: 768px){
+    }
+
+    @media (max-width: 768px){
        margin-top: 1rem;
        padding: auto 0.5rem;
        width: auto;
        height: 13rem;
        margin-left: 2.5rem; 
-     }
+    }
      
-     @media(max-width: 600px){
+    @media(max-width: 600px){
        margin-top: 0.8rem;
        padding: auto 0.4rem;
        width: auto;
        height: 10.7rem;
        margin-left: 2rem; 
-     }
+    }
 
-     @media(max-width: 414px){
+    @media(max-width: 414px){
         width: auto;
         height: auto;
         margin-left: 0;
-     }
+    }
     
-`
+`;
+
 export const BoxTitle = styled.div`
     padding: 8.43px 0;
     width: 400px;
@@ -279,22 +299,27 @@ export const BoxTitle = styled.div`
     @media(max-width: 1024px){
         width: 20.3rem;
         padding: 0.6rem 0
-     }
-     @media(max-width: 834px){
-      width: 14rem; 
-     }
-     @media(max-width: 768px){
-      width: 13rem; 
-     }
-     @media(max-width: 600px){
-      width: 10rem; 
-     }
-     @media(max-width: 414px){
-      width: auto; 
-      margin-bottom: 0.5rem;
-     }
+    }
+
+    @media(max-width: 834px){
+        width: 14rem; 
+    }
+
+    @media(max-width: 768px){
+        width: 13rem; 
+    }
+
+    @media(max-width: 600px){
+        width: 10rem; 
+    }
+
+    @media(max-width: 414px){
+        width: auto; 
+        margin-bottom: 0.5rem;
+    }
     
-`
+`;
+
 export const TextPrimry = styled.h1`
     font-weight: 700;
     font-size: 61.26px;
@@ -302,11 +327,15 @@ export const TextPrimry = styled.h1`
 
     @media(max-width: 1024px){
         font-size: 2.5rem;
-     }
+    }
+
     @media(max-width: 834px){
         font-size: 2rem;
-     }
-`
+    }
+    @media(max-width: 600px){
+        font-size: 1.5rem;
+    }
+`;
 
 export const BoxSubTitle = styled.div`
      width: 404.37px;
@@ -341,14 +370,21 @@ export const TextSecod = styled.h2`
     @media(max-width:1024px){
        font-size:1rem
     }
+
     @media(max-width:834px){
        font-size:0.9rem
     }
+
     @media(max-width:800px){
        font-size:0.9rem
     }
+
     @media(max-width:768px){
        font-size:0.8rem
+    }
+
+    @media(max-width:600px){
+       font-size:0.7rem
     }
 `
 
@@ -505,14 +541,14 @@ export const BoxPaints = styled.div`
         @media(max-width:768px){
             width: 0.7rem;
             height: 0.7rem;
-         }
-        @media(max-width:600px){
+    }
+    @media(max-width:600px){
             width: 0.6rem;
             height: 0.6rem;
-         }
+    }
 
     }
-`
+`;
 
 export const BoxPoltrona = styled.div`
     /* background-color: azure; */
@@ -538,7 +574,7 @@ export const BoxPoltrona = styled.div`
         margin-top: 0.7rem;
     }
     @media(max-width:600px){
-        margin-right:0.9rem;
+        margin-right:0;
         margin-top: 0.7rem;
     }
     @media(max-width:414px){
@@ -554,25 +590,28 @@ export const BoxPoltrona = styled.div`
         width: 97%;
         height:94% ;
 
-        @media(max-width:1024px){
+    @media(max-width:1024px){
         width: 95%;
         height: 80%;
-       }
-        @media(max-width:834px){
+    }
+
+    @media(max-width:834px){
         width: 92%;
         height: 87%;
-       }
-        @media(max-width:800px){
+    }
+
+    @media(max-width:800px){
         width: 93%;
         height: 88%;
-       }
-        @media(max-width:768px){
+    }
+
+    @media(max-width:768px){
         width: 90%;
         height: 87%;
-       }
+    }
         @media(max-width:600px){
         width: 90%;
-        height: 88%;
+        height: 87%;
        }
         @media(max-width:414px){
         width: 60.5%;

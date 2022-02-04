@@ -150,8 +150,9 @@ export const Description = styled.p`
 export const Logo = styled.div`
 /* background-color: black; */
 img{
-        width:100%;         
-        height:100%;         
+      width:58%;
+      height:58%;
+
     @media(max-width:1024px){
         width: 43%;
         height: 43%;
@@ -257,12 +258,12 @@ export const SelectionColor = styled.div`
     background-color: blueviolet;
 
     @media(max-width:834px){
-            margin-left: 6.3rem;
-            width: 5rem;
+        margin-left: 6.3rem;
+        width: 5rem;
     }
     @media(max-width:768px){
-            margin-left: 5.8rem;
-            width: 4.5rem;
+        margin-left: 5.8rem;
+        width: 4.5rem;
     }
     @media(max-width:600px){
         margin-left: 6.5rem;
