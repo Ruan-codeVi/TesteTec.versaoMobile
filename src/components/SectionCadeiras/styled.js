@@ -30,8 +30,7 @@ export const Section = styled.section `
     }
 
     @media(max-width: 600px){
-        height: 45rem;
-        /* height: auto; */
+        height: 40rem;
         width: 100%;
     }
 `;
@@ -72,7 +71,7 @@ export const Wrapper = styled.div `
     @media(max-width: 600px){
        flex-direction: column;
        align-items: center;
-       
+       height: 28rem;
     }
 
     @media(max-width: 414px){
@@ -110,6 +109,9 @@ export const BoxInfos = styled.div `
     @media(max-width: 600px){
         width:auto;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     @media(max-width: 414px){
@@ -143,7 +145,7 @@ export const BoxTitle = styled.div `
         margin-bottom: 1.5rem;
     }
     @media(max-width: 600px){
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
 `;
@@ -271,7 +273,7 @@ export const BoxPolt = styled.div `
         width: 28rem;
     }  
     @media(max-width: 600px){
-        width: 21.5rem;
+        width: 100%;
     }  
 `;
 
@@ -309,7 +311,7 @@ export const ContatinerChair = styled.div`
     }
 
     @media(max-width: 600px){
-        width: 6.5rem;
+        width: 11rem;
     }
       
     :hover{
@@ -330,6 +332,10 @@ export const ContatinerChair = styled.div`
       @media(max-width: 768px){
          width: 70%;
          height: 40%;
+      }
+      @media(max-width: 600px){
+         width: 70%;
+         height: 50%;
       }
      
   }

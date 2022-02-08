@@ -6,31 +6,52 @@ export const Container = styled.footer`
     background-color: yellowgreen;
     height: 723px;
     width: 100%;
+    position: relative;
 
     @media(max-width:834px){
-          height:36rem ;
+          height:36rem;
           width: 100%;
     }
+
     @media(max-width:800px){
-          height:35rem ;
+          height:35rem;
           width: 100%;
     }
-`
+    @media(max-width:600px){
+          height:39rem;
+          width: 100%;
+    }
+   
+`;
+
 export const BoxTitle = styled.div`
     display: flex;
+    text-align: center;
     justify-content: center;   
 
     @media(max-width:1024px){
         font-size:2.3rem;
-        margin-top: 4rem;
         margin-bottom: 1.8rem;
- }
+    }
+
     @media(max-width:834px){
         font-size:2.1rem;
-        margin-top: 3rem;
         margin-bottom: 1.8rem;
- }
-`
+    }
+`;
+
+export const Wrapper = styled.div`
+    background-color: pink;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    @media(max-width:600px){
+        flex-direction: row;
+        justify-content: center;
+    }
+`;
+
 export const Title = styled.h1`
     background-color: antiquewhite;
     font-size: 48px;
@@ -42,14 +63,22 @@ export const Title = styled.h1`
         font-size: 2rem;
         margin-top: 6rem;
     }
-`
+`;
+
 
 export const BoxUp = styled.div`
-background-color: black;
+    background-color: black;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-`
+
+    @media(max-width:600px){
+       flex-direction: column;
+       width: auto;
+       margin-right: 1.2rem;
+    }
+`;
+
 export const BoxWrapper = styled.div`
     /* background-color: rgba(255, 255, 255, 1); */
     background-color: brown;
@@ -65,19 +94,27 @@ export const BoxWrapper = styled.div`
         width :20.5rem;
         height: 7rem;
     }
+
     @media(max-width:834px){
         width :16.2rem;
         height: 7rem;
     }
+
     @media(max-width:800px){
         width :16rem;
         height: 7rem;
     }
+
     @media(max-width:768px){
         width :15rem;
         height: 6.8rem;
     }
-`
+
+    @media(max-width:600px){
+        margin-bottom: 10px;
+    }
+`;
+
 export const BoxElement = styled.div`
     background-color: yellow;
     display: flex;
@@ -99,13 +136,14 @@ export const BoxElement = styled.div`
         height: 20%;
         margin-left: 0;
     }
+
     @media(max-width:834px){
         width :19%;
         height: 19%;
         margin-left: 0;
     }
 }    
-`
+`;
 
 export const BoxInfos = styled.div`
     background-color: orange;
@@ -116,13 +154,16 @@ export const BoxInfos = styled.div`
     @media(max-width:834px){
         margin-left: 1.2rem;
     }
+
     @media(max-width:800px){
          margin-left: 1rem;
     }
+
     @media(max-width:768px){
         margin-left: 0.8rem;
     }
-`
+`;
+
 export const Category = styled.span`
     font-weight: 700;
     font-size: 20px;
@@ -130,10 +171,12 @@ export const Category = styled.span`
     @media(max-width:834px){
         font-size: 1rem;
     }
+
     @media(max-width:768px){
         font-size: 0.9rem;
     }
-`
+`;
+
 export const Description = styled.p`
     margin-top: 9px;
     font-weight: 400px;
@@ -142,17 +185,23 @@ export const Description = styled.p`
     @media(max-width:834px){
         font-size: 0.9rem;
     }
+
     @media(max-width:768px){
         font-size: 0.8rem;
     }
-`
+`;
 
 export const BoxDown = styled.div`
     background-color: blueviolet;
     margin-top: 31px;
     display: flex;
     justify-content: space-evenly;
-    width:100%;                                                                                                                                                                                                                                                                                                                                                                                                                 : ;
+    width:100%;   
 
-`
+    @media(max-width:600px){
+       flex-direction: column;
+       margin-top: 0;
+       width: auto;
+    }
+`;
 

@@ -34,15 +34,15 @@ function SectionCadeiras() {
                 <BoxChair>
                     {produtos.map((cadeira)=>{
                         if(cadeira.id > 5 && cadeira.id < 9)
-                        return (  
-                            <ContatinerChair key={cadeira.id}> 
-                                     <img  src={cadeira.img} alt="cadeira"/>                               
-                                <BoxInfosChair> 
-                                    <InfoComp>{cadeira.nome}</InfoComp>
-                                    <InfoComp>R${cadeira.preco}</InfoComp>
-                                </BoxInfosChair>
-                           </ContatinerChair>
-                         );
+                            return (  
+                                <ContatinerChair key={cadeira.id}> 
+                                        <img  src={cadeira.img} alt="cadeira"/>                               
+                                    <BoxInfosChair> 
+                                        <InfoComp>{cadeira.nome}</InfoComp>
+                                        <InfoComp>R${cadeira.preco}</InfoComp>
+                                    </BoxInfosChair>
+                                </ContatinerChair>
+                            );
                             return produtos ? true : null;
                         })}
                     </BoxChair>

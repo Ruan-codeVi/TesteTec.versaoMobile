@@ -19,10 +19,9 @@ text-rendering: optimizeLegibility;
 }
 
 body{
-    /* background-color: blueviolet; */
+    background-color: burlywood;
     font-family: "Roboto", sans-serif;
-    background: rgba(255, 255, 255, 1);
-   
+    /* background: rgba(255, 255, 255, 1); */
 }
 `
 export default GlobalStyled;
