@@ -118,10 +118,15 @@ export const BoxWrapper = styled.div`
     @media(max-width:600px){
         margin-bottom: 10px;
     }
+
+    @media(max-width:414px){
+        width :11.7rem;
+        height: 6rem;
+    }
 `;
 
 export const BoxElement = styled.div`
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     align-items: center; 
     
@@ -129,7 +134,11 @@ export const BoxElement = styled.div`
         margin-left: 0.7em;
     }
 
+    @media(max-width:414px){
+        margin-left: 0.2em;
+    }
 
+   
     img{
         margin-left: 36px;
         background-color: blue;
@@ -167,6 +176,10 @@ export const BoxInfos = styled.div`
     @media(max-width:768px){
         margin-left: 0.8rem;
     }
+
+    @media(max-width:414px){
+        margin-left: 0.3rem;
+    }
 `;
 
 export const Category = styled.span`
@@ -193,6 +206,10 @@ export const Description = styled.p`
 
     @media(max-width:768px){
         font-size: 0.8rem;
+    }
+
+    @media(max-width:414px){
+        font-size: 0.7rem;
     }
 `;
 

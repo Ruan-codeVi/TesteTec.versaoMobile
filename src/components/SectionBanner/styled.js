@@ -434,7 +434,8 @@ export const BoxRigth = styled.div`
     @media(max-width:414px){
         width:18.5rem;
         height:18.5rem;
-        margin-left: 5rem;
+        margin-left: 4rem;
+        margin-bottom: 1rem;
     }
 
     img{
