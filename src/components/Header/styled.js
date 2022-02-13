@@ -14,6 +14,9 @@ export const HeaderCompon = styled.header`
     background-repeat: no-repeat;
     z-index: 999;
     
+    @media (max-width: 414px){
+       background-repeat: repeat-y;
+    }  
 `;
 
 export const Wrapper = styled.div`
@@ -39,7 +42,7 @@ export const Wrapper = styled.div`
        height:15.7rem
     }  
     @media (max-width: 414px){
-       height:11.2rem
+       height:14.2rem
     }  
 `;
 
@@ -139,12 +142,6 @@ export const MenuOptions = styled.ul`
         text-decoration: none;
     }
 
-    .option a:hover{
-        text-decoration: underline solid;
-        text-decoration-color:red;
-        cursor: pointer;
-        transition: 0.3s linear;
-    }
 
     @media (max-width: 500px){
        display: ${({show})=> show ? 'block' : 'none'};
@@ -224,6 +221,11 @@ export const Logo = styled.div`
         width: 53%;
         height: 53%;
     }
+
+    @media (max-width: 414px){
+        width: 65%;
+        height: 65%;
+    }
 }
 
 `;
@@ -231,11 +233,13 @@ export const Logo = styled.div`
 export const Container = styled.div`
     display: flex;
     justify-content:space-between;
-
+    
     @media (max-width: 414px){
+        background-color: yellow;
         display: flex;
         flex-direction: column-reverse; 
         align-items: center;
+        height: auto;
     }
 
 `;
@@ -283,9 +287,11 @@ export const BoxRigth = styled.article`
     }
 
     @media(max-width: 414px){
-        width: auto;
-        height: auto;
-        margin-left: 0;
+       text-align: center;
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+       height: auto;
     }
     
 `;
@@ -313,10 +319,6 @@ export const BoxTitle = styled.div`
         width: 10rem; 
     }
 
-    @media(max-width: 414px){
-        width: auto; 
-        margin-bottom: 0.5rem;
-    }
     
 `;
 
@@ -358,7 +360,7 @@ export const BoxSubTitle = styled.div`
         width: 14.5rem;
     }
     @media(max-width:414px){
-        width: 19.6rem;
+        width: 13.6rem;
     }
 
 `
@@ -386,6 +388,9 @@ export const TextSecod = styled.h2`
     @media(max-width:600px){
        font-size:0.7rem
     }
+    @media(max-width:414px){
+       font-size:0.8rem
+    }
 `
 
 
@@ -402,9 +407,7 @@ export const BoxButtons = styled.div`
         margin-top: 1rem;
     }
     @media(max-width:414px){
-        display: flex;
-        justify-content: center;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
 .button{

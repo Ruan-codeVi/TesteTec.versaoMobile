@@ -19,7 +19,7 @@ text-rendering: optimizeLegibility;
 }
 
 body{
-    background-color: burlywood;
+    background-color: white;
     font-family: "Roboto", sans-serif;
     /* background: rgba(255, 255, 255, 1); */
 }

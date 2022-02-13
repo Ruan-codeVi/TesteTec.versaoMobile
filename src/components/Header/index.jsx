@@ -36,7 +36,7 @@ function Header() {
                                     <MenuToggCloseleicon onClick={toggleMenuFunc} src={toggleCloseMenu} width="28px" />
                                 </MenuToggleCloseContainer>)
                     : ( <MenuToggleContainer>
-                            <MenuToggleicon onClick={toggleMenuFunc} src={toggleMenu} width="36px" />
+                            <MenuToggleicon onClick={toggleMenuFunc} src={toggleMenu} width="28px" />
                         </MenuToggleContainer>)}
   
                     <MenuOptions show={show}>

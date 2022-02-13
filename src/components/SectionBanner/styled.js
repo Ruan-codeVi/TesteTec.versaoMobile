@@ -33,7 +33,7 @@ export const Banner = styled.section`
 
     @media(max-width:414px){
         height: auto;
-        margin-top: 16rem;
+        margin-top: 1rem;
         background-image:none;
         background-color: #3E3E3E;
     }
@@ -44,12 +44,11 @@ export const ContainerBanner = styled.div`
     display: flex;
     justify-content: space-between;
 
-    /* @media(max-width:414px){
+    @media(max-width:414px){
         text-align: center;
         flex-direction: column;
         align-items:center;
-        justify-content: center;
-    } */
+    }
 `;
 
 export const BoxLeft = styled.div`
@@ -118,7 +117,7 @@ export const Title = styled.h1`
     }
 
     @media(max-width:414px){
-        font-size: 1.3rem;
+        font-size: 1.7rem;
         margin-bottom: 0.7rem;
     }
 
@@ -197,8 +196,8 @@ img{
         height: 35%;
     }
     @media(max-width:414px){
-        width: 37%;
-        height: 37%;
+        width: 45%;
+        height: 45%;
     }
 }
 
@@ -312,6 +311,7 @@ export const SelectionColor = styled.div`
         align-items: center;
         margin-left: 0;
         width: auto;
+        margin-top: 2.5rem;
     }
 
 `
@@ -341,7 +341,6 @@ export const Colors = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-        /* background-color:white; */
        
     img{
         width:20px;
@@ -372,7 +371,7 @@ export const Colors = styled.div`
         width: 16px;
         height: 16px;
 
-        /* Responsive Classe cores psdoClasse Hover tag img */
+    
     @media(max-width:834px){
         width: 0.7rem;
         height: 0.7rem;
@@ -393,9 +392,9 @@ export const Colors = styled.div`
 export const BoxRigth = styled.div`
     width: 483px;
     height: 483px;
-    /* background-color: blanchedalmond; */
     margin-right: 100px;
     margin-top: 80px;
+    background-color: orange;
 
     /* Responsive Componente BoxDireito  */
     @media(max-width:1024px){
@@ -431,6 +430,11 @@ export const BoxRigth = styled.div`
         height:14.7rem;
         margin-top: 1.2rem;
         margin-right: 1.1rem;
+    }
+    @media(max-width:414px){
+        width:18.5rem;
+        height:18.5rem;
+        margin-left: 5rem;
     }
 
     img{

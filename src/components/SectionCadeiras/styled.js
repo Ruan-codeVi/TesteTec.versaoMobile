@@ -33,6 +33,11 @@ export const Section = styled.section `
         height: 40rem;
         width: 100%;
     }
+    @media(max-width: 414px){
+        margin-top: 19rem;
+        height: 40rem;
+        width: 100%;
+    }
 `;
 
 export const Wrapper = styled.div `
@@ -75,10 +80,12 @@ export const Wrapper = styled.div `
     }
 
     @media(max-width: 414px){
-        width: 100%;
-        height: 27rem;
-        margin-top: 22rem;
+        background-color: aqua;
+        height: 30rem;
         flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin-top: 8rem; 
     }
     
 `;
@@ -98,7 +105,6 @@ export const BoxInfos = styled.div `
     }
 
     @media(max-width: 800px){
-       width: auto;
        margin-left: 2.5rem;
     }
 
@@ -112,17 +118,15 @@ export const BoxInfos = styled.div `
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
 
     @media(max-width: 414px){
        display: flex;
        flex-direction: column;
        text-align: center;
-       margin:0 2.5rem;
-       width: 20rem;
-       margin-bottom: 0.5rem;
-       border: 1px solid black;
-       border-radius: 16px;
+       width: auto;
+       margin-bottom: 2rem;
     }
 
 `;
@@ -147,6 +151,9 @@ export const BoxTitle = styled.div `
     @media(max-width: 600px){
         margin-bottom: 0.5rem;
     }
+    @media(max-width: 414px){
+        margin-bottom: 0.5rem;
+    }
 
 `;
 
@@ -165,6 +172,7 @@ export const Title = styled.h1`
     @media(max-width: 800px){
        font-size: 1.4rem;
     }
+
     @media(max-width: 600px){
        font-size: 1.5rem;
     }
@@ -180,6 +188,9 @@ export const SubTitle = styled.div `
     @media(max-width: 600px){
         width: 26rem;
     }      
+    @media(max-width: 414px){
+        width: 22rem;
+    }      
 `;
 
 export const Description = styled.p`
@@ -188,7 +199,8 @@ export const Description = styled.p`
 
     @media(max-width: 834px){
        font-size: 0.8rem;
-    }    
+    } 
+
     @media(max-width: 600px){
        font-size: 0.9rem;
     }    
@@ -274,6 +286,7 @@ export const BoxPolt = styled.div `
     }  
     @media(max-width: 600px){
         width: 100%;
+        margin-top: 1rem;
     }  
 `;
 
@@ -294,6 +307,10 @@ export const ContatinerChair = styled.div`
       transition: 0.2s linear;
       width: 270px;
 
+    :hover{
+        background-color:rgba(246, 246, 246, 1);
+    }
+
     @media(max-width: 1024px){
         width: 13rem;
     }
@@ -313,16 +330,16 @@ export const ContatinerChair = styled.div`
     @media(max-width: 600px){
         width: 11rem;
     }
-      
-    :hover{
-      background-color:rgba(246, 246, 246, 1);
+
+    @media(max-width: 414px){
+        width: 7.5rem;
     }
+      
     img{
       background-color: antiquewhite;
       margin-top: 10px;
       width: 220px;
       height: 260px;
-      background-color: aqua;
 
       @media(max-width: 1024px){
          width: 75%;
@@ -343,9 +360,9 @@ export const ContatinerChair = styled.div`
 `;
 
 export const BoxInfosChair = styled.div`
+    /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
-    background-color: blueviolet;
     justify-content: center;
     align-content: center;
     margin-top:25px;
