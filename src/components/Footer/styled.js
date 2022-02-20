@@ -17,8 +17,13 @@ export const Container = styled.footer`
           height:35rem;
           width: 100%;
     }
+
     @media(max-width:600px){
           height:39rem;
+          width: 100%;
+    }
+    @media(max-width:414px){
+          height:35rem;
           width: 100%;
     }
    

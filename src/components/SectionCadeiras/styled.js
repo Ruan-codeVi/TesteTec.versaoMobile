@@ -80,12 +80,11 @@ export const Wrapper = styled.div `
     }
 
     @media(max-width: 414px){
-        background-color: aqua;
+        background-color: orange;
         height: 30rem;
         flex-direction: column;
-        align-items:center;
-        justify-content: center;
         margin-top: 8rem; 
+        align-items: center;
     }
     
 `;
@@ -118,15 +117,17 @@ export const BoxInfos = styled.div `
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: 0;
         
     }
 
     @media(max-width: 414px){
        display: flex;
+       margin-left: 0;
        flex-direction: column;
        text-align: center;
        width: auto;
-       margin-bottom: 2rem;
+       margin-bottom: 1rem;
     }
 
 `;
@@ -284,9 +285,15 @@ export const BoxPolt = styled.div `
     @media(max-width: 768px){
         width: 28rem;
     }  
+
     @media(max-width: 600px){
         width: 100%;
         margin-top: 1rem;
+    }  
+
+    @media(max-width: 414px){
+        width: 100%;
+        margin-top: 0.5rem;
     }  
 `;
 
