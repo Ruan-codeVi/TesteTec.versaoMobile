@@ -341,6 +341,14 @@ export const ContatinerChair = styled.div`
     @media(max-width: 414px){
         width: 7.5rem;
     }
+
+    @media(max-width: 384px){
+        width: 6.8rem;
+    }
+    
+    @media(max-width: 375px){
+        width: 6.8rem;
+    }
       
     img{
       background-color: antiquewhite;
@@ -367,7 +375,7 @@ export const ContatinerChair = styled.div`
 `;
 
 export const BoxInfosChair = styled.div`
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -425,6 +433,12 @@ img{
     @media(max-width: 600px){
         width: 67%;
         height: 67%;
+        margin-left: 0;
+    }
+
+    @media(max-width: 375px){
+        width: 90%;
+        height: 90%;
         margin-left: 0;
     }
 }

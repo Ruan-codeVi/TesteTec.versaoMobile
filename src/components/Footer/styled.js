@@ -128,6 +128,16 @@ export const BoxWrapper = styled.div`
         width :11.7rem;
         height: 6rem;
     }
+
+    @media(max-width:384px){
+        width :10.8rem;
+        height: 6rem;
+    }
+    
+    @media(max-width:375px){
+        width :10.6rem;
+        height: 6rem;
+    }
 `;
 
 export const BoxElement = styled.div`
@@ -169,6 +179,7 @@ export const BoxInfos = styled.div`
     margin-left: 25px;
     color: rgba(62, 62, 62, 1);
     color: ${(props)=>props.color};
+
 
     @media(max-width:834px){
         margin-left: 1.2rem;
@@ -216,6 +227,8 @@ export const Description = styled.p`
     @media(max-width:414px){
         font-size: 0.7rem;
     }
+
+  
 `;
 
 export const BoxDown = styled.div`
