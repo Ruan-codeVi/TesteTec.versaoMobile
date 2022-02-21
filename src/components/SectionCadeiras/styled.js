@@ -345,7 +345,7 @@ export const ContatinerChair = styled.div`
     @media(max-width: 384px){
         width: 6.8rem;
     }
-    
+
     @media(max-width: 375px){
         width: 6.8rem;
     }
@@ -436,6 +436,11 @@ img{
         margin-left: 0;
     }
 
+    @media(max-width: 412px){
+        width: 90%;
+        height: 90%;
+        margin-left: 0;
+    }
     @media(max-width: 375px){
         width: 90%;
         height: 90%;
