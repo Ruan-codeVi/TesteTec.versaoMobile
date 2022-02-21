@@ -129,11 +129,15 @@ export const BoxWrapper = styled.div`
         height: 6rem;
     }
 
+    @media(max-width:393px){
+        width :11.1rem;
+        height: 6rem;
+    }
     @media(max-width:384px){
         width :10.8rem;
         height: 6rem;
     }
-    
+
     @media(max-width:375px){
         width :10.6rem;
         height: 6rem;
