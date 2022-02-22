@@ -17,12 +17,12 @@ export const Section = styled.section `
     @media(max-width: 834px){
         height: 40rem;
         width: 100%;
-      }
+    }
 
     @media(max-width: 800px){
         height: 37rem;
         width: 100%;
-      }
+    }
 
     @media(max-width: 768px){
         height: 32rem;
@@ -33,6 +33,7 @@ export const Section = styled.section `
         height: 40rem;
         width: 100%;
     }
+
     @media(max-width: 414px){
         margin-top: 19rem;
         height: 40rem;
@@ -117,8 +118,7 @@ export const BoxInfos = styled.div `
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 0;
-        
+        margin-left: 0; 
     }
 
     @media(max-width: 414px){
@@ -149,9 +149,11 @@ export const BoxTitle = styled.div `
         width: 10rem;
         margin-bottom: 1.5rem;
     }
+
     @media(max-width: 600px){
         margin-bottom: 0.5rem;
     }
+
     @media(max-width: 414px){
         margin-bottom: 0.5rem;
     }
@@ -177,6 +179,10 @@ export const Title = styled.h1`
     @media(max-width: 600px){
        font-size: 1.5rem;
     }
+
+    @media(max-width: 320px){
+       font-size: 1.3rem;
+    }
 `;
 
 export const SubTitle = styled.div `
@@ -185,13 +191,23 @@ export const SubTitle = styled.div `
 
     @media(max-width: 834px){
         width: 13rem;
-    }      
+    }  
+
     @media(max-width: 600px){
         width: 26rem;
-    }      
+    } 
+
     @media(max-width: 414px){
         width: 22rem;
-    }      
+    }     
+
+    @media(max-width: 360px){
+        width: 20rem;
+    }
+
+    @media(max-width: 320px){
+        width: 18.7rem;
+    }     
 `;
 
 export const Description = styled.p`
@@ -219,7 +235,7 @@ export const ArrowRight = styled.div `
     margin-top: 90.41px;
     cursor: pointer;
 
-    /* Responsive Componente ArrowRight */
+  
     @media(max-width: 1024px){
        width: 3.5rem;
        height: 3.5rem;
@@ -259,7 +275,7 @@ export const ArrowRight = styled.div `
     img{
       width: 60%;
       height: 60%;
-}  
+    }  
 `;
 
 export const BoxPolt = styled.div `
@@ -268,9 +284,8 @@ export const BoxPolt = styled.div `
   display: flex;
   align-items: center;
   
-    /* Responsive Componente BoxPolt  */
 
-     @media(max-width: 1024px){
+    @media(max-width: 1024px){
         width: 42rem;
     }
 
@@ -294,6 +309,10 @@ export const BoxPolt = styled.div `
     @media(max-width: 414px){
         width: 100%;
         margin-top: 0.5rem;
+    }
+
+    @media(max-width: 320px){
+        flex
     }  
 `;
 
@@ -353,6 +372,14 @@ export const ContatinerChair = styled.div`
     @media(max-width: 375px){
         width: 6.8rem;
     }
+
+    @media(max-width: 360px){
+        width: 6.3rem;
+    }
+
+    @media(max-width: 320px){
+        width: 6rem;
+    }
       
     img{
       background-color: antiquewhite;
@@ -360,19 +387,20 @@ export const ContatinerChair = styled.div`
       width: 220px;
       height: 260px;
 
-      @media(max-width: 1024px){
-         width: 75%;
-         height: 45%;
-      }
+    @media(max-width: 1024px){
+        width: 75%;
+        height: 45%;
+    }
 
-      @media(max-width: 768px){
-         width: 70%;
-         height: 40%;
-      }
-      @media(max-width: 600px){
-         width: 70%;
-         height: 50%;
-      }
+    @media(max-width: 768px){
+        width: 70%;
+        height: 40%;
+    }
+
+    @media(max-width: 600px){
+        width: 70%;
+        height: 50%;
+    }
      
   }
 
@@ -409,6 +437,11 @@ export const InfoComp = styled.span`
         font-size: 1rem;
         width: 5rem;
     }
+
+    @media(max-width: 360px){
+        font-size: 0.9rem;
+        width: 4.5rem;
+    }
 `;
 
 export const BoxArrowRight02 = styled.div `
@@ -416,6 +449,10 @@ export const BoxArrowRight02 = styled.div `
   margin-top: 60px;
   margin-left: 20px;
   cursor: pointer;
+
+    @media(max-width: 320px){
+       display:block;
+    }
 
 img{
 
@@ -441,15 +478,18 @@ img{
     }
 
     @media(max-width: 412px){
-        width: 90%;
-        height: 90%;
+        width: 70%;
+        height: 70%;
         margin-left: 0;
     }
+
     @media(max-width: 375px){
-        width: 90%;
-        height: 90%;
+        width: 70%;
+        height: 70%;
         margin-left: 0;
     }
+
+   
 }
 
 `;

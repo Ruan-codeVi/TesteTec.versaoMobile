@@ -22,6 +22,7 @@ export const Container = styled.footer`
           height:39rem;
           width: 100%;
     }
+
     @media(max-width:414px){
           height:35rem;
           width: 100%;
@@ -133,6 +134,7 @@ export const BoxWrapper = styled.div`
         width :11.1rem;
         height: 6rem;
     }
+
     @media(max-width:384px){
         width :10.8rem;
         height: 6rem;
@@ -140,6 +142,11 @@ export const BoxWrapper = styled.div`
 
     @media(max-width:375px){
         width :10.6rem;
+        height: 6rem;
+    }
+
+    @media(max-width:360px){
+        width :10rem;
         height: 6rem;
     }
 `;
@@ -173,6 +180,12 @@ export const BoxElement = styled.div`
     @media(max-width:834px){
         width :19%;
         height: 19%;
+        margin-left: 0;
+    }
+
+    @media(max-width:360px){
+        width :18%;
+        height: 18%;
         margin-left: 0;
     }
 }    
@@ -230,6 +243,10 @@ export const Description = styled.p`
 
     @media(max-width:414px){
         font-size: 0.7rem;
+    }
+
+    @media(max-width:360px){
+        font-size: 0.6rem;
     }
 
   

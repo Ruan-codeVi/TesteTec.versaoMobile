@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import produtos from '../../data'
 import {HeaderCompon, Wrapper, Navegation, Logo,
 MenuToggleContainer,MenuToggleicon,MenuOptions,  
 MenuToggleCloseContainer,MenuToggCloseleicon,Container,
@@ -14,7 +15,7 @@ import red from '../../assets/img/headerAssets/EllipseRed.png'
 import darkBlue from '../../assets/img/headerAssets/EllipseDarkBlue.png'
 import gray from '../../assets/img/headerAssets/EllipseGray.png'
 import yellow from '../../assets/img/headerAssets/EllipseYellow.png'
-import poltronaLightBlue from '../../assets/img/headerAssets/poltrona azulTurq.png'
+
 
 
 function Header() {
@@ -23,6 +24,7 @@ function Header() {
     const toggleMenuFunc = ()=>{
         setShow(!show)
     }
+
     return (
     <HeaderCompon>
         <Wrapper>
@@ -84,7 +86,13 @@ function Header() {
                                     <img className='color' src={yellow} alt="Amarelo" />
                                 </BoxPaints>
                                 <BoxPoltrona>
-                                        <img className='poltrona' src={poltronaLightBlue} alt="Poltrona Azul claro" />
+                                    {produtos.map((poltrona)=>{
+                                        if(poltrona.id === 1)
+                                            return <img key={poltrona.id} src={poltrona.img} alt="cadeira gamer preta/vermelha" />
+
+                                        return produtos ? true : null;
+                                    })}
+                                        
                                 </BoxPoltrona>
                     </BoxLeft>
             </Container>	

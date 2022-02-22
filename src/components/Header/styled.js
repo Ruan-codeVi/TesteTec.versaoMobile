@@ -24,7 +24,7 @@ export const Wrapper = styled.div`
     height: ${px2vw(613)};
     width:100%;
 
-    /* Reponsive Componente Wrapper */
+   
     @media (max-width: 1024px){
        height: 27.1rem;
     }
@@ -35,12 +35,15 @@ export const Wrapper = styled.div`
     @media (max-width: 800px){
        height:21.1rem
     }
+
     @media (max-width: 768px){
        height:${px2vw(605)};
     }
+
     @media (max-width: 600px){
        height:15.7rem
     }  
+
     @media (max-width: 414px){
        height:14.2rem
     }  
@@ -153,6 +156,7 @@ export const MenuOptions = styled.ul`
        height: 100vh;
        width: 100vw;
        padding: 0;
+       font-size: 1.5rem;
        
 
     .option{
@@ -174,7 +178,6 @@ export const MenuOptions = styled.ul`
 export const Logo = styled.div`
     margin-left: 80px;
 
-    /* Reponsive componente logo */
     @media (max-width: 1024px){
         margin-left: 2.5rem;
     }
@@ -196,7 +199,7 @@ export const Logo = styled.div`
     }
    
     img{
-        /* Reponsive da tag */
+      
     @media (max-width: 1024px){
         width: 95%;
         height: 95%;
@@ -254,7 +257,7 @@ export const BoxRigth = styled.article`
     width: auto;
    
 
-    /* Responsive Componente BoxRigth */
+    
     @media (max-width: 1024px){
         width: auto;
         height: 16.6rem ;
@@ -301,7 +304,7 @@ export const BoxTitle = styled.div`
     width: 400px;
     background-color: blue;
  
-    /* Responsive Componente BoxTitle   */
+   
     @media(max-width: 1024px){
         width: 20.3rem;
         padding: 0.6rem 0
@@ -334,8 +337,17 @@ export const TextPrimry = styled.h1`
     @media(max-width: 834px){
         font-size: 2rem;
     }
+
     @media(max-width: 600px){
         font-size: 1.5rem;
+    }
+
+    @media(max-width: 360px){
+        font-size: 1.4rem;
+    }
+
+    @media(max-width: 320px){
+        font-size: 1.3rem;
     }
 `;
 
@@ -343,22 +355,27 @@ export const BoxSubTitle = styled.div`
      width: 404.37px;
      background-color: orange;
     
-  /* Responsive Componente BoxSubTitle  */
+ 
     @media(max-width:1024px){
         width: 21rem;
     }
+
     @media(max-width:834px){
         width: 18.5rem;
     }
+
     @media(max-width:800px){
         width: 18.9rem;
     }
+
     @media(max-width:768px){
         width: 16.5rem;
     }
+
     @media(max-width:600px){
         width: 14.5rem;
     }
+
     @media(max-width:414px){
         width: 13.6rem;
     }
@@ -388,6 +405,7 @@ export const TextSecod = styled.h2`
     @media(max-width:600px){
        font-size:0.7rem
     }
+
     @media(max-width:414px){
        font-size:0.8rem
     }
@@ -400,15 +418,20 @@ export const BoxButtons = styled.div`
     @media(max-width:1024px){
         margin-top: 1.7rem;
     }
+
     @media(max-width:768px){
         margin-top: 1.2rem;
     }
+
     @media(max-width:600px){
         margin-top: 1rem;
     }
+
     @media(max-width:414px){
         margin-top: 1rem;
     }
+
+   
 
 .button{
     font-weight: 700;
@@ -418,12 +441,13 @@ export const BoxButtons = styled.div`
     border-radius: 106.135px;
     cursor: pointer;
     
-    /* Responsive  Classe button */
+   
     @media(max-width:1024px){
         font-size: 0.7rem;
         width: 7rem;
         padding: 0.5rem;
     }
+
     @media(max-width:834px){
         font-size: 0.6rem;
         width: 6.5rem;
@@ -434,14 +458,22 @@ export const BoxButtons = styled.div`
         width: 6rem;
         padding: 0.3rem;
     }
+
     @media(max-width:600px){
         font-size: 0.4rem;
         width: 4.5rem;
         padding: 0.3rem;
     }
+
     @media(max-width:414px){
         font-size: 0.7rem;
         width: 6.2rem;
+        padding: 0.4rem;
+    }
+
+    @media(max-width:320px){
+        font-size: 0.6rem;
+        width: 5.7rem;
         padding: 0.4rem;
     }
 }
@@ -458,42 +490,69 @@ export const BoxButtons = styled.div`
     background-color: transparent;
     border: 2.1227px solid rgba(62, 62, 62, 1);
 }
-`
+`;
+
 export const BoxLeft = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: salmon; */
-`
+ 
+`;
+
 export const BoxPaints = styled.div`
     margin-top: 50px;
     margin-left:5px;
     cursor: pointer;
 
-   /* Responsive Compontent BoxPaints */
+   
     @media(max-width:1024px){
        margin-top: 1.7rem;
        margin-left:4.5rem;
     }
+
     @media(max-width:834px){
        margin-top: 1.7rem;
        margin-left:2.8rem;
     }
+
     @media(max-width:800px){
        margin-top: 1.5rem;
        margin-left:1.3rem;
     }
+
     @media(max-width:768px){
        margin-top: 1.5rem;
        margin-left:2.5rem;
     }
+
     @media(max-width:600px){
        margin-top: 0.4rem;
        margin-left:0.7rem;
     }
+
     @media(max-width:414px){
        margin-top: 0.4rem;
        margin-left:2.5rem;
+    }
+
+    @media(max-width:411px){
+       margin-top: 1rem;
+       background-color: black;
+    }
+
+    @media(max-width:375px){
+       margin-top: 1rem;
+       background-color: black;
+    }
+
+    @media(max-width:360px){
+       margin-top: 1rem;
+       background-color: black;
+    }
+
+    @media(max-width:320px){
+       margin-top: 1rem;
+       background-color: black;
     }
     
     .color{
@@ -501,53 +560,60 @@ export const BoxPaints = styled.div`
         height: 32px;
         margin: 0 7px;
         
-        /*Responsive Classe color  */
-        @media(max-width:1024px){
-            width: 1.2rem;
-            height: 1.2rem;
-         }
-        @media(max-width:834px){
-            width: 1rem;
-            height: 1rem;
-            margin: 0 0.3rem;
-         }
-        @media(max-width:768px){
-            width: 0.9rem;
-            height: 0.9rem;
-            margin: 0 0.2rem;
-         }
-        @media(max-width:600px){
-            width: 0.7rem;
-            height: 0.7rem;
-            margin: 0 0.2rem;
-         }
-        @media(max-width:414px){
-            width: 1rem;
-            height: 1rem;
-            margin: 0 0.3rem;
-         }
+      
+    @media(max-width:1024px){
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    @media(max-width:834px){
+        width: 1rem;
+        height: 1rem;
+        margin: 0 0.3rem;
+    }
+
+    @media(max-width:768px){
+        width: 0.9rem;
+        height: 0.9rem;
+        margin: 0 0.2rem;
+    }
+
+    @media(max-width:600px){
+        width: 0.7rem;
+        height: 0.7rem;
+        margin: 0 0.2rem;
+    }
+
+    @media(max-width:414px){
+        width: 1rem;
+        height: 1rem;
+        margin: 0 0.3rem;
+    }
        
     }
     .color:hover{
         width: 20px;
         height: 20px;
        
-        /* Responsive Classe color com subClasss hover */
-        @media(max-width:1024px){
-            width: 0.9rem;
-            height: 0.9rem;
-         }
-        @media(max-width:834px){
-            width: 0.8rem;
-            height: 0.8rem;
-         }
-        @media(max-width:768px){
-            width: 0.7rem;
-            height: 0.7rem;
+        
+    @media(max-width:1024px){
+        width: 0.9rem;
+        height: 0.9rem;
     }
+
+    @media(max-width:834px){
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+
+    @media(max-width:768px){
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+
     @media(max-width:600px){
-            width: 0.6rem;
-            height: 0.6rem;
+        width: 0.6rem;
+        height: 0.6rem;
     }
 
     }
@@ -559,27 +625,32 @@ export const BoxPoltrona = styled.div`
     margin-top: 37px;
     
     
-    /* Responsive Componente BoxPoltrona */
+  
     @media(max-width:1024px){
         margin-right:1rem;
         margin-top: 0.8rem;
     }
+
     @media(max-width:834px){
         margin-right:1rem;
         margin-top: 0.9rem;
     }
+
     @media(max-width:800px){
         margin-right:0.5rem;
         margin-top: 1rem;
     }
+
     @media(max-width:768px){
         margin-right:0.2rem;
         margin-top: 0.7rem;
     }
+
     @media(max-width:600px){
         margin-right:0;
         margin-top: 1.2rem;
     }
+
     @media(max-width:414px){
         display: flex;
         align-items: center;
@@ -612,14 +683,21 @@ export const BoxPoltrona = styled.div`
         width: 90%;
         height: 87%;
     }
-        @media(max-width:600px){
+
+    @media(max-width:600px){
         width: 90%;
         height: 87%;
-       }
-        @media(max-width:414px){
+    }
+
+    @media(max-width:414px){
         width: 60.5%;
         height: 60.5%;
-       }
+    }
+
+    @media(max-width:320px){
+        width: 68%;
+        height: 68%;
+    }
    
     }
    

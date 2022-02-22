@@ -431,9 +431,17 @@ export const BoxRigth = styled.div`
         margin-top: 1.2rem;
         margin-right: 1.1rem;
     }
+
     @media(max-width:414px){
         width:18.5rem;
         height:18.5rem;
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    @media(max-width:360px){
+        width:17.5rem;
+        height:17.5rem;
         margin-left: 4rem;
         margin-bottom: 1rem;
     }
