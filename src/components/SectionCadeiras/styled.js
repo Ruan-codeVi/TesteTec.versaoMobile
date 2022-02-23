@@ -312,7 +312,7 @@ export const BoxPolt = styled.div `
     }
 
     @media(max-width: 320px){
-        flex
+        flex-direction:column;
     }  
 `;
 
@@ -445,16 +445,31 @@ export const InfoComp = styled.span`
 `;
 
 export const BoxArrowRight02 = styled.div `
-  background-color: white;
   margin-top: 60px;
   margin-left: 20px;
   cursor: pointer;
 
+
+ 
+
+  .left{
+      display: none;
+  }
+
     @media(max-width: 320px){
-       display:block;
+       margin-top: 0;
+       margin-left: 0;
+
+       .left{
+            display: inline-block;
+            transform: rotate(180deg);
+            background-color: brown;
+        }
+  
+        
     }
 
-img{
+  img{
 
     @media(max-width: 834px){
         width: 69%;
@@ -471,6 +486,7 @@ img{
         height: 65%;
         margin-left: 0;
     }
+
     @media(max-width: 600px){
         width: 67%;
         height: 67%;
@@ -486,6 +502,12 @@ img{
     @media(max-width: 375px){
         width: 70%;
         height: 70%;
+        margin-left: 0;
+    }
+
+    @media(max-width: 320px){
+        width: 50%;
+        height: 50%;
         margin-left: 0;
     }
 
