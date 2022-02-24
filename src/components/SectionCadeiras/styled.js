@@ -2,11 +2,11 @@ import styled from 'styled-components'
 
 
 export const Section = styled.section `
-    background-color: red;
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: 909.99px;
+  background-color: red;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 909.99px;
 
     /* Reponsive Componente Section */
     @media(max-width: 1024px){
@@ -42,12 +42,12 @@ export const Section = styled.section `
 `;
 
 export const Wrapper = styled.div `
-    background-color: blueviolet;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 514.12px;
-    margin-top: 235.77px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 514.12px;
+  margin-top: 235.77px;
 
     /* Reponsive Componente Wrapper */
     @media(max-width: 1024px){
@@ -91,9 +91,9 @@ export const Wrapper = styled.div `
 `;
 
 export const BoxInfos = styled.div `
-    background-color: pink;
-    width: auto;
-    margin-left: 84px;
+  background-color: pink;
+  width: auto;
+  margin-left: 84px;
 
     /* Reponsive Componente BoxInfos */
     @media(max-width: 1024px){
@@ -161,8 +161,8 @@ export const BoxTitle = styled.div `
 `;
 
 export const Title = styled.h1`
-    font-weight: 700;
-    font-size: 29.8px;
+  font-weight: 700;
+  font-size: 29.8px;
 
     @media(max-width: 1024px){
        font-size: 1.6rem;
@@ -211,8 +211,8 @@ export const SubTitle = styled.div `
 `;
 
 export const Description = styled.p`
-    font-weight: 300;
-    font-size: 14.9px;
+  font-weight: 300;
+  font-size: 14.9px;
 
     @media(max-width: 834px){
        font-size: 0.8rem;
@@ -224,16 +224,16 @@ export const Description = styled.p`
 `;
 
 export const ArrowRight = styled.div `
-    display: flex;
-    background-color: rgba(62, 62, 62, 1);
-    width: 67.04px;
-    height: 67.04px;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    margin-left: 60px;
-    margin-top: 90.41px;
-    cursor: pointer;
+  display: flex;
+  background-color: rgba(62, 62, 62, 1);
+  width: 67.04px;
+  height: 67.04px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+  margin-top: 90.41px;
+  cursor: pointer;
 
   
     @media(max-width: 1024px){
@@ -313,25 +313,26 @@ export const BoxPolt = styled.div `
 
     @media(max-width: 320px){
         flex-direction:column;
+        width: 100%;
     }  
 `;
 
 export const BoxChair = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
     
 `;
 
 export const ContatinerChair = styled.div`
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      text-align: center;
-      height: 100%;
-      transition: 0.2s linear;
-      width: 270px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  transition: 0.2s linear;
+  width: 270px;
 
     :hover{
         background-color:rgba(246, 246, 246, 1);
@@ -407,21 +408,21 @@ export const ContatinerChair = styled.div`
 `;
 
 export const BoxInfosChair = styled.div`
-    background-color: blueviolet;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin-top:25px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top:25px;
 `;
 
 export const InfoComp = styled.span`
-      font-weight: 700;
-      font-size: 21.55px;
-      color: rgba(62, 62, 62, 1);
-      margin-bottom: 20.74px;
-      background: black;
-      width: 110px;
+  font-weight: 700;
+  font-size: 21.55px;
+  color: rgba(62, 62, 62, 1);
+  margin-bottom: 20.74px;
+  background: black;
+  width: 110px;
 
     @media(max-width: 834px){
         font-size: 1.3rem;
@@ -448,28 +449,31 @@ export const BoxArrowRight02 = styled.div `
   margin-top: 60px;
   margin-left: 20px;
   cursor: pointer;
+  height: auto;
+  width: auto;
+  
 
-
- 
-
-  .left{
-      display: none;
-  }
 
     @media(max-width: 320px){
-       margin-top: 0;
-       margin-left: 0;
-
-       .left{
-            display: inline-block;
-            transform: rotate(180deg);
-            background-color: brown;
-        }
+        margin-top: 0.7rem;
+        margin-left: 0;
+        display: flex;
+        height: auto;
+        width: auto;
   
-        
+    img:first-child{
+        display: none;
     }
 
+    img:first-child{
+        display: block;
+        transform: rotate(180deg);
+    }
+}
+
   img{
+
+    margin-right: 20px;
 
     @media(max-width: 834px){
         width: 69%;
@@ -506,6 +510,7 @@ export const BoxArrowRight02 = styled.div `
     }
 
     @media(max-width: 320px){
+        background-color: brown;
         width: 50%;
         height: 50%;
         margin-left: 0;

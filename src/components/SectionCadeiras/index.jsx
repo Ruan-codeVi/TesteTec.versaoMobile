@@ -47,7 +47,7 @@ function SectionCadeiras() {
                         })}
                     </BoxChair>
                 <BoxArrowRight02>
-                        <img className='left' src={RigthArrow02} alt="Esquerda"/>
+                        <img  src={RigthArrow02} alt="Esquerda"/>
                         <img src={RigthArrow02} alt="Direita" />
                        
                 </BoxArrowRight02>
