@@ -3,10 +3,10 @@ import styled from "styled-components";
 
 
 export const Container = styled.footer`
-    background-color: yellowgreen;
-    height: 723px;
-    width: 100%;
-    position: relative;
+  background-color: yellowgreen;
+  height: 723px;
+  width: 100%;
+  position: relative;
 
     @media(max-width:834px){
           height:36rem;
@@ -31,9 +31,9 @@ export const Container = styled.footer`
 `;
 
 export const BoxTitle = styled.div`
-    display: flex;
-    text-align: center;
-    justify-content: center;   
+  display: flex;
+  text-align: center;
+  justify-content: center;   
 
     @media(max-width:1024px){
         font-size:2.3rem;
@@ -47,10 +47,10 @@ export const BoxTitle = styled.div`
 `;
 
 export const Wrapper = styled.div`
-    background-color: pink;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  background-color: pink;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 
     @media(max-width:600px){
         flex-direction: row;
@@ -59,11 +59,11 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h1`
-    background-color: antiquewhite;
-    font-size: 48px;
-    font-weight: 500;
-    margin-top: 118px;
-    margin-bottom: 31px;
+  background-color: antiquewhite;
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 118px;
+  margin-bottom: 31px;
 
     @media(max-width:800px){
         font-size: 2rem;
@@ -78,10 +78,10 @@ export const Title = styled.h1`
 
 
 export const BoxUp = styled.div`
-    background-color: black;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 
     @media(max-width:600px){
        flex-direction: column;
@@ -92,14 +92,14 @@ export const BoxUp = styled.div`
 
 export const BoxWrapper = styled.div`
     /* background-color: rgba(255, 255, 255, 1); */
-    background-color: brown;
-    background: ${(props) => props.background};
-    display: flex;
-    align-items: center;
-    width: 407px;
-    height: 164px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+  background-color: brown;
+  background: ${(props) => props.background};
+  display: flex;
+  align-items: center;
+  width: 407px;
+  height: 164px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 
     @media(max-width:1024px){
         width :20.5rem;
@@ -141,7 +141,7 @@ export const BoxWrapper = styled.div`
     }
 
     @media(max-width:375px){
-        width :10.6rem;
+        width :10.5rem;
         height: 6rem;
     }
 
@@ -149,12 +149,16 @@ export const BoxWrapper = styled.div`
         width :10rem;
         height: 6rem;
     }
+
+    @media(max-width:320px){
+        width :8.8rem;
+        height: 6rem;
+    }
 `;
 
 export const BoxElement = styled.div`
-    /* background-color: yellow; */
-    display: flex;
-    align-items: center; 
+  display: flex;
+  align-items: center; 
     
     @media(max-width:1024px){
         margin-left: 0.7em;
@@ -188,14 +192,21 @@ export const BoxElement = styled.div`
         height: 18%;
         margin-left: 0;
     }
+
+    @media(max-width:320px){
+        width :17%;
+        height: 17%;
+        margin-left: 0;
+    }
 }    
 `;
 
 export const BoxInfos = styled.div`
-    background-color: orange;
-    margin-left: 25px;
-    color: rgba(62, 62, 62, 1);
-    color: ${(props)=>props.color};
+  background-color: orange;
+  width: auto;
+  margin-left: 25px;
+  color: rgba(62, 62, 62, 1);
+  color: ${(props)=>props.color};
 
 
     @media(max-width:834px){
@@ -216,8 +227,8 @@ export const BoxInfos = styled.div`
 `;
 
 export const Category = styled.span`
-    font-weight: 700;
-    font-size: 20px;
+  font-weight: 700;
+  font-size: 20px;
 
     @media(max-width:834px){
         font-size: 1rem;
@@ -226,12 +237,16 @@ export const Category = styled.span`
     @media(max-width:768px){
         font-size: 0.9rem;
     }
+
+    @media(max-width:320px){
+        font-size: 0.8rem;
+    }
 `;
 
 export const Description = styled.p`
-    margin-top: 9px;
-    font-weight: 400px;
-    font-size: 16px;
+  margin-top: 9px;
+  font-weight: 400px;
+  font-size: 16px;
 
     @media(max-width:834px){
         font-size: 0.9rem;
@@ -253,11 +268,11 @@ export const Description = styled.p`
 `;
 
 export const BoxDown = styled.div`
-    background-color: blueviolet;
-    margin-top: 31px;
-    display: flex;
-    justify-content: space-evenly;
-    width:100%;   
+  background-color: blueviolet;
+  margin-top: 31px;
+  display: flex;
+  justify-content: space-evenly;
+  width:100%;   
 
     @media(max-width:600px){
        flex-direction: column;

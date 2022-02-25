@@ -371,7 +371,7 @@ export const ContatinerChair = styled.div`
     }
 
     @media(max-width: 375px){
-        width: 6.8rem;
+        width: 6.7rem;
     }
 
     @media(max-width: 360px){
@@ -452,7 +452,9 @@ export const BoxArrowRight02 = styled.div `
   height: auto;
   width: auto;
   
-
+    img:first-child{
+        display: none;
+    }
 
     @media(max-width: 320px){
         margin-top: 0.7rem;
@@ -461,9 +463,7 @@ export const BoxArrowRight02 = styled.div `
         height: auto;
         width: auto;
   
-    img:first-child{
-        display: none;
-    }
+    
 
     img:first-child{
         display: block;
@@ -473,7 +473,7 @@ export const BoxArrowRight02 = styled.div `
 
   img{
 
-    margin-right: 20px;
+    
 
     @media(max-width: 834px){
         width: 69%;
@@ -510,6 +510,7 @@ export const BoxArrowRight02 = styled.div `
     }
 
     @media(max-width: 320px){
+        margin-right: 20px;
         background-color: brown;
         width: 50%;
         height: 50%;

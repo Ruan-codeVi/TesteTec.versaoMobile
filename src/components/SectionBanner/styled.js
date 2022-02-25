@@ -446,6 +446,13 @@ export const BoxRigth = styled.div`
         margin-bottom: 1rem;
     }
 
+    @media(max-width:320px){
+        width:16rem;
+        height:16rem;
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+    }
+
     img{
         width: 100%;
         height: 100%;
