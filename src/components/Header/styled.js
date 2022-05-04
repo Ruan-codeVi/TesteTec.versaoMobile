@@ -500,8 +500,9 @@ export const BoxLeft = styled.div`
 `;
 
 export const BoxPaints = styled.div`
+    display:flex ;
     margin-top: 50px;
-    margin-left:5px;
+    margin-left:2px;
     cursor: pointer;
 
    
@@ -511,8 +512,8 @@ export const BoxPaints = styled.div`
     }
 
     @media(max-width:834px){
-       margin-top: 1.7rem;
-       margin-left:2.8rem;
+       margin-top: 1.5rem;
+       margin-left:1.5rem;
     }
 
     @media(max-width:800px){
@@ -554,70 +555,64 @@ export const BoxPaints = styled.div`
        margin-top: 1rem;
        background-color: black;
     }
-    
-    .color{
-        width: 32px;
-        height: 32px;
-        margin: 0 7px;
-        
-      
-    @media(max-width:1024px){
-        width: 1.2rem;
-        height: 1.2rem;
-    }
-
-    @media(max-width:834px){
-        width: 1rem;
-        height: 1rem;
-        margin: 0 0.3rem;
-    }
-
-    @media(max-width:768px){
-        width: 0.9rem;
-        height: 0.9rem;
-        margin: 0 0.2rem;
-    }
-
-    @media(max-width:600px){
-        width: 0.7rem;
-        height: 0.7rem;
-        margin: 0 0.2rem;
-    }
-
-    @media(max-width:414px){
-        width: 1rem;
-        height: 1rem;
-        margin: 0 0.3rem;
-    }
-       
-    }
-    .color:hover{
-        width: 20px;
-        height: 20px;
-       
-        
-    @media(max-width:1024px){
-        width: 0.9rem;
-        height: 0.9rem;
-    }
-
-    @media(max-width:834px){
-        width: 0.8rem;
-        height: 0.8rem;
-    }
-
-    @media(max-width:768px){
-        width: 0.7rem;
-        height: 0.7rem;
-    }
-
-    @media(max-width:600px){
-        width: 0.6rem;
-        height: 0.6rem;
-    }
-
-    }
 `;
+
+export const BoxWrapperPaint = styled.label`
+    display:block;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+    input[type="radio"]{
+        display:none;
+    }
+    
+`
+export const Paint = styled.div`
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:transparent;
+    margin-left: 10px;
+    border:0.5px solid black;
+    
+    @media(max-width:1024px){
+        width: 25px;
+        height: 25px;
+        margin-left: 8px;
+    }
+    @media(max-width:834px){
+        width: 23px;
+        height: 23px;
+        margin-left: 8px;
+    }
+    .paint{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    input[type="radio"]:checked + .paint{
+        display:block;
+        width: 21px;
+        height: 21px;
+        border-radius: 50%;
+
+    @media(max-width:1024px){
+        width: 18px;
+        height: 18px;
+    }
+    @media(max-width:834px){
+        width: 16px;
+        height: 16px;
+    }
+}
+   
+     
+    `
+  
 
 export const BoxPoltrona = styled.div`
     /* background-color: azure; */

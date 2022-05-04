@@ -1,20 +1,16 @@
 import React, {useState} from 'react'
 import produtos from '../../data'
 import {HeaderCompon, Wrapper, Navegation, Logo,
-MenuToggleContainer,MenuToggleicon,MenuOptions,  
-MenuToggleCloseContainer,MenuToggCloseleicon,Container,
+ MenuToggleContainer,MenuToggleicon,MenuOptions,  
+ MenuToggleCloseContainer,MenuToggCloseleicon,Container,
  BoxRigth,BoxTitle, TextPrimry, BoxSubTitle,TextSecod, BoxButtons ,BoxLeft, 
- BoxPaints, BoxPoltrona} from './styled.js'
+ BoxPaints,BoxWrapperPaint, Paint, BoxPoltrona} from './styled.js'
 
 import toggleMenu from '../../assets/img/headerAssets/toggleMenu.svg'
 import toggleCloseMenu from '../../assets/img/headerAssets/close.svg'
 
 import logo from '../../assets/img/headerAssets/logo-preto.png'
-import blue from '../../assets/img/headerAssets/EllipseBlue.png'
-import red from '../../assets/img/headerAssets/EllipseRed.png'
-import darkBlue from '../../assets/img/headerAssets/EllipseDarkBlue.png'
-import gray from '../../assets/img/headerAssets/EllipseGray.png'
-import yellow from '../../assets/img/headerAssets/EllipseYellow.png'
+
 
 
 
@@ -79,11 +75,36 @@ function Header() {
                         </BoxRigth>
                     <BoxLeft>
                                 <BoxPaints>
-                                    <img className='color' src={blue} alt="Azul" />
-                                    <img className='color' src={red} alt="Vermelho" />
-                                    <img className='color' src={gray} alt="Cinza" />
-                                    <img className='color' src={darkBlue} alt="Azul-Escuro" />
-                                    <img className='color' src={yellow} alt="Amarelo" />
+                                    <BoxWrapperPaint>
+                                        <Paint>
+                                            <input type='radio' name='radio'/>
+                                            <div className='paint'style={{backgroundColor:'#3AA6AC'}}/>
+                                        </Paint>
+                                    </BoxWrapperPaint>
+                                    <BoxWrapperPaint>
+                                        <Paint>
+                                            <input type='radio' name='radio'/>
+                                            <div className='paint'style={{backgroundColor:'#CB3738'}}/>
+                                        </Paint>
+                                    </BoxWrapperPaint>
+                                    <BoxWrapperPaint>
+                                        <Paint>
+                                            <input type='radio' name='radio'/>
+                                            <div className='paint'style={{backgroundColor:'#626262'}}/>
+                                        </Paint>
+                                    </BoxWrapperPaint>
+                                    <BoxWrapperPaint>
+                                        <Paint>
+                                            <input type='radio' name='radio'/>
+                                            <div className='paint'style={{backgroundColor:'#445C80'}}/>
+                                        </Paint>
+                                    </BoxWrapperPaint>
+                                    <BoxWrapperPaint>
+                                        <Paint>
+                                            <input type='radio' name='radio'/>
+                                            <div className='paint'style={{backgroundColor:'#EBD41C'}}/>
+                                        </Paint>
+                                    </BoxWrapperPaint>
                                 </BoxPaints>
                                 <BoxPoltrona>
                                     {produtos.map((poltrona)=>{
