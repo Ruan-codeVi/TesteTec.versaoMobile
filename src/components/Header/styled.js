@@ -496,6 +496,7 @@ export const BoxLeft = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    
  
 `;
 
@@ -534,7 +535,8 @@ export const BoxPaints = styled.form`
 
     @media(max-width:414px){
        margin-top: 0.4rem;
-       margin-left:2.5rem;
+       margin-left:9rem;
+      
     }
 
     @media(max-width:411px){
