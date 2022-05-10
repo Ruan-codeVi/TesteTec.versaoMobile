@@ -1,7 +1,7 @@
 import React from 'react'
 import { Banner, ContainerBanner, BoxLeft,
     Title,Description,Logo, DetailsBox,Price, SelectionColor,
-    TextColor, Colors,
+    TextColor, Colors,BoxWrapperPaint,Paint,
     OldPrice, ForCash,Payment ,BoxRigth } from './styled.js'
 
 import produtos from '../../data'
@@ -51,9 +51,24 @@ function SectionBanner() {
                                     Selecione a cor
                                 </TextColor>
                                     <Colors>
-                                        <img id='cicleRed' src={cicleRed}  alt="circulo Vermelho" />
-                                        <img src={cicleBlack} alt=" circulo Preto" />
-                                        <img src={cicleWhite} alt="circulo Branco" />
+                                    <BoxWrapperPaint>
+                                        <Paint>
+                                            <input type='radio' name='radio'value='Preto/Vermelho'/>
+                                            <div className='paint'style={{backgroundColor:'#CB3738'}}/>
+                                        </Paint>
+                                    </BoxWrapperPaint>
+                                    <BoxWrapperPaint>
+                                        <Paint>
+                                            <input type='radio' name='radio' value='Preto/Cinza'/>
+                                            <div className='paint'style={{backgroundColor:'#000'}}/>
+                                        </Paint>
+                                    </BoxWrapperPaint>
+                                    <BoxWrapperPaint>
+                                        <Paint>
+                                            <input type='radio' name='radio' value='Branco'/>
+                                            <div className='paint'style={{backgroundColor:'#FFF'}}/>
+                                        </Paint>
+                                    </BoxWrapperPaint>
                                     </Colors>
                             </SelectionColor>
                     </DetailsBox>

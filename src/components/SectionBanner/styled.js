@@ -337,7 +337,7 @@ export const TextColor = styled.span`
         margin-top: 1rem;
     }
 `
-export const Colors = styled.div`
+export const Colors = styled.form`
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -367,28 +367,102 @@ export const Colors = styled.div`
         margin: 0 0.3rem
     }
 }
-    img:hover{
-        width: 16px;
-        height: 16px;
+`
 
+export const BoxWrapperPaint = styled.label`
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+    input[type="radio"]{
+        display:none;
+    }
     
-    @media(max-width:834px){
-        width: 0.7rem;
-        height: 0.7rem;
+`
+
+export const Paint = styled.div`
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:transparent;
+    margin-left: 10px;
+    border:0.5px solid white;
+
+
+    @media(max-width:1024px){
+        width: 25px;
+        height: 25px;
+        margin-left: 8px;
     }
 
-    @media(max-width:768px){
-        width: 0.6rem;
-        height: 0.6rem;
+    @media(max-width:834px){
+        width: 23px;
+        height: 23px;
+        margin-left: 7px;
+    }
+
+    @media(max-width:800px){
+        width: 19px;
+        height: 19px;
+        margin-left: 7px;
+    }
+
+    @media(max-width:734px){
+        width: 17px;
+        height: 17px;
+        margin-left: 7px;
     }
 
     @media(max-width:600px){
-        width: 0.5rem;
-        height: 0.5rem;
+        width: 14px;
+        height: 14px;
+        margin-left: 7px;
+    }
+    .paint{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    input[type="radio"]:checked + .paint{
+        display:block;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+
+    @media(max-width:1024px){
+        width: 15px;
+        height: 15px;
+    }
+
+    @media(max-width:834px){
+        width: 13px;
+        height: 13px;
+    }
+
+    @media(max-width:800px){
+        width: 11px;
+        height: 11px;
+    }
+
+    @media(max-width:734px){
+        width: 9px;
+        height: 9px;
+    }
+
+    @media(max-width:600px){
+        width: 7px;
+        height: 7px;
     }
 }
-
 `
+
+
 export const BoxRigth = styled.div`
     width: 483px;
     height: 483px;

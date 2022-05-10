@@ -146,8 +146,8 @@ export const BoxWrapper = styled.div`
     }
 
     @media(max-width:360px){
-        width :10rem;
-        height: 6rem;
+        width :9.8rem;
+        height: 5.8rem;
     }
 
     @media(max-width:320px){
