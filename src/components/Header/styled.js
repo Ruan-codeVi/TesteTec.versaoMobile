@@ -499,7 +499,8 @@ export const BoxLeft = styled.div`
  
 `;
 
-export const BoxPaints = styled.div`
+export const BoxPaints = styled.form`
+    background-color:yellowgreen;
     display:flex ;
     margin-top: 50px;
     margin-left:2px;
@@ -513,22 +514,22 @@ export const BoxPaints = styled.div`
 
     @media(max-width:834px){
        margin-top: 1.5rem;
-       margin-left:1.5rem;
+       margin-right:6.5rem ;
     }
 
     @media(max-width:800px){
        margin-top: 1.5rem;
-       margin-left:1.3rem;
+       margin-right:7.9rem;
     }
 
     @media(max-width:768px){
        margin-top: 1.5rem;
-       margin-left:2.5rem;
+       margin-right:8.3rem;
     }
 
     @media(max-width:600px){
-       margin-top: 0.4rem;
-       margin-left:0.7rem;
+       margin-top: 0.6rem;
+       margin-right:6.8rem;
     }
 
     @media(max-width:414px){
@@ -583,11 +584,31 @@ export const Paint = styled.div`
         height: 25px;
         margin-left: 8px;
     }
+
     @media(max-width:834px){
         width: 23px;
         height: 23px;
-        margin-left: 8px;
+        margin-left: 7px;
     }
+
+    @media(max-width:800px){
+        width: 19px;
+        height: 19px;
+        margin-left: 7px;
+    }
+
+    @media(max-width:734px){
+        width: 17px;
+        height: 17px;
+        margin-left: 7px;
+    }
+
+    @media(max-width:600px){
+        width: 14px;
+        height: 14px;
+        margin-left: 7px;
+    }
+
     .paint{
         width: 100%;
         height: 100%;
@@ -596,28 +617,44 @@ export const Paint = styled.div`
 
     input[type="radio"]:checked + .paint{
         display:block;
-        width: 21px;
-        height: 21px;
+        width: 18px;
+        height: 18px;
         border-radius: 50%;
 
     @media(max-width:1024px){
-        width: 18px;
-        height: 18px;
+        width: 15px;
+        height: 15px;
     }
+
     @media(max-width:834px){
-        width: 16px;
-        height: 16px;
+        width: 13px;
+        height: 13px;
+    }
+
+    @media(max-width:800px){
+        width: 11px;
+        height: 11px;
+    }
+
+    @media(max-width:734px){
+        width: 9px;
+        height: 9px;
+    }
+
+    @media(max-width:600px){
+        width: 7px;
+        height: 7px;
     }
 }
    
      
-    `
+`
   
 
 export const BoxPoltrona = styled.div`
     /* background-color: azure; */
     margin-right:80px;
-    margin-top: 37px;
+    margin-top: 15px;
     
     
   
@@ -627,22 +664,22 @@ export const BoxPoltrona = styled.div`
     }
 
     @media(max-width:834px){
-        margin-right:1rem;
+        margin-right:6rem;
         margin-top: 0.9rem;
     }
 
     @media(max-width:800px){
-        margin-right:0.5rem;
+        margin-right:4.1rem;
         margin-top: 1rem;
     }
 
     @media(max-width:768px){
-        margin-right:0.2rem;
-        margin-top: 0.7rem;
+        margin-right:4rem;
+        margin-top: 1.1rem;
     }
 
     @media(max-width:600px){
-        margin-right:0;
+        margin-right:2.9rem;
         margin-top: 1.2rem;
     }
 
@@ -656,8 +693,8 @@ export const BoxPoltrona = styled.div`
     
 
     img{
-        width: 97%;
-        height:94% ;
+        width: 630px;
+        height:556px;
 
     @media(max-width:1024px){
         width: 95%;
@@ -665,23 +702,23 @@ export const BoxPoltrona = styled.div`
     }
 
     @media(max-width:834px){
-        width: 92%;
-        height: 87%;
+        width: 20rem;
+        height: 20rem;
     }
 
     @media(max-width:800px){
-        width: 93%;
-        height: 88%;
+        width: 19rem;
+        height: 19rem;
     }
 
     @media(max-width:768px){
-        width: 90%;
-        height: 87%;
+        width: 18rem;
+        height: 18rem;
     }
 
     @media(max-width:600px){
-        width: 90%;
-        height: 87%;
+        width: 14rem;
+        height: 14rem;
     }
 
     @media(max-width:414px){

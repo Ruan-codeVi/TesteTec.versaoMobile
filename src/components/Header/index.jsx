@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import produtos from '../../data'
 import {HeaderCompon, Wrapper, Navegation, Logo,
  MenuToggleContainer,MenuToggleicon,MenuOptions,  
@@ -16,10 +16,40 @@ import logo from '../../assets/img/headerAssets/logo-preto.png'
 
 function Header() {
     const [show, setShow]= useState(false)
+    const [capa, setCapa] = useState([])
+    const [trocou, setTrocou] = useState(false)
+    const [novaCor, setNovaCor] = useState([])
+
+    useEffect(()=> {
+
+    const carregaCapa =()=>{
+        produtos.map((poltrona)=> {
+            if(poltrona.id === 1){
+              setCapa(poltrona.img)
+            }
+            return !produtos ? null : true
+          })
+        }
+        carregaCapa()
+      },[] )
+    
 
     const toggleMenuFunc = ()=>{
         setShow(!show)
     }
+
+   const trocaCor = (e)=>{
+        console.log(e.target.value)
+    
+        produtos.map((poltrona)=>{
+          if(poltrona.cor === e.target.value){
+              setTrocou(true)
+              setNovaCor(poltrona.img)
+          }
+          return console.log('Ok')
+        })
+    
+      }
 
     return (
     <HeaderCompon>
@@ -74,46 +104,41 @@ function Header() {
                                 </BoxButtons>
                         </BoxRigth>
                     <BoxLeft>
-                                <BoxPaints>
+                                <BoxPaints onChange={trocaCor}>
                                     <BoxWrapperPaint>
                                         <Paint>
-                                            <input type='radio' name='radio'/>
+                                            <input type='radio' name='radio' value='Azul-Turquesa'/>
                                             <div className='paint'style={{backgroundColor:'#3AA6AC'}}/>
                                         </Paint>
                                     </BoxWrapperPaint>
                                     <BoxWrapperPaint>
                                         <Paint>
-                                            <input type='radio' name='radio'/>
+                                            <input type='radio' name='radio'value='Vermelha'/>
                                             <div className='paint'style={{backgroundColor:'#CB3738'}}/>
                                         </Paint>
                                     </BoxWrapperPaint>
                                     <BoxWrapperPaint>
                                         <Paint>
-                                            <input type='radio' name='radio'/>
+                                            <input type='radio' name='radio'value='Cinza'/>
                                             <div className='paint'style={{backgroundColor:'#626262'}}/>
                                         </Paint>
                                     </BoxWrapperPaint>
                                     <BoxWrapperPaint>
                                         <Paint>
-                                            <input type='radio' name='radio'/>
+                                            <input type='radio' name='radio'value='Azul-Marinho'/>
                                             <div className='paint'style={{backgroundColor:'#445C80'}}/>
                                         </Paint>
                                     </BoxWrapperPaint>
                                     <BoxWrapperPaint>
                                         <Paint>
-                                            <input type='radio' name='radio'/>
+                                            <input type='radio' name='radio' value='Amarela'/>
                                             <div className='paint'style={{backgroundColor:'#EBD41C'}}/>
                                         </Paint>
                                     </BoxWrapperPaint>
                                 </BoxPaints>
                                 <BoxPoltrona>
-                                    {produtos.map((poltrona)=>{
-                                        if(poltrona.id === 1)
-                                            return <img key={poltrona.id} src={poltrona.img} alt="cadeira gamer preta/vermelha" />
-
-                                        return produtos ? true : null;
-                                    })}
-                                        
+                                    {trocou ? <img src={novaCor} alt='poltrona imagem'/>
+                                    : <img src={capa} alt='poltrona imagem'/> }       
                                 </BoxPoltrona>
                     </BoxLeft>
             </Container>	
