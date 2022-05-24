@@ -179,14 +179,17 @@ img{
         width: 43%;
         height: 43%;
     }
+
     @media(max-width:834px){
         width: 40%;
         height: 40%;
     }
+
     @media(max-width:800px){
         width: 45%;
         height: 45%;
     }
+
     @media(max-width:768px){
         width: 43%;
         height: 43%;
@@ -195,6 +198,7 @@ img{
         width: 35%;
         height: 35%;
     }
+
     @media(max-width:414px){
         width: 45%;
         height: 45%;
@@ -239,7 +243,8 @@ export const OldPrice = styled.span`
         font-size:1rem
     }   
     
-`
+`;
+
 export const ForCash = styled.span`
     font-weight: 700;
     font-size: 48px;
@@ -264,7 +269,8 @@ export const ForCash = styled.span`
     @media(max-width:600px){
         font-size: 1.4rem;
     }
-`
+`;
+
 export const Payment = styled.span`
     font-weight: 400;
     font-size: 18px;
@@ -284,7 +290,8 @@ export const Payment = styled.span`
     @media(max-width:414px){
         font-size:1rem
     }   
-`
+`;
+
 export const SelectionColor = styled.div`
     display: flex;
     flex-direction: column;
@@ -336,7 +343,8 @@ export const TextColor = styled.span`
         margin-bottom: 0.8rem;
         margin-top: 1rem;
     }
-`
+`;
+
 export const Colors = styled.form`
     display: flex;
     justify-content: space-between;
@@ -379,75 +387,81 @@ export const BoxWrapperPaint = styled.label`
     input[type="radio"]{
         display:none;
     }
-    
-`
 
-export const Paint = styled.div`
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color:transparent;
-    margin-left: 10px;
-    border:0.5px solid white;
 
+`;
+
+export const BoxPaint = styled.div`
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 21px;
+        height: 21px;
+        border-radius: 50%;
+        /* margin-left: 4px; */
+        
+        :hover{
+            border:1px solid white ;
+        }
 
     @media(max-width:1024px){
-        width: 25px;
-        height: 25px;
-        margin-left: 8px;
+        width: 20px;
+        height: 20px;
+        
     }
 
     @media(max-width:834px){
-        width: 23px;
-        height: 23px;
-        margin-left: 7px;
+        width: 19px;
+        height: 19px; 
     }
 
     @media(max-width:800px){
-        width: 19px;
-        height: 19px;
-        margin-left: 7px;
+        width: 18px;
+        height: 18px;
+    }
+
+    @media(max-width:768px){
+        width: 16px;
+        height: 16px;
     }
 
     @media(max-width:734px){
         width: 17px;
         height: 17px;
-        margin-left: 7px;
     }
 
     @media(max-width:600px){
         width: 14px;
         height: 14px;
-        margin-left: 7px;
     }
-    .paint{
+    
+    .color{
         width: 100%;
         height: 100%;
-        border-radius: 50%;
+        border-radius: 50%; 
     }
+    
 
-    input[type="radio"]:checked + .paint{
+    input[type="radio"]:checked + .color{
         display:block;
-        width: 18px;
-        height: 18px;
-        border-radius: 50%;
+        width:13px;
+        height:13px;
+        
+       
 
     @media(max-width:1024px){
-        width: 15px;
-        height: 15px;
+        width: 12px;
+        height: 12px;
     }
 
     @media(max-width:834px){
-        width: 13px;
-        height: 13px;
+        width: 11px;
+        height: 11px;
     }
 
     @media(max-width:800px){
-        width: 11px;
-        height: 11px;
+        width: 10px;
+        height: 10px;
     }
 
     @media(max-width:734px){
@@ -456,11 +470,11 @@ export const Paint = styled.div`
     }
 
     @media(max-width:600px){
-        width: 7px;
-        height: 7px;
+        width: 7.5px;
+        height: 7.5px;
     }
-}
 `
+    
 
 
 export const BoxRigth = styled.div`

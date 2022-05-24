@@ -1,14 +1,12 @@
 import React from 'react'
 import { Banner, ContainerBanner, BoxLeft,
     Title,Description,Logo, DetailsBox,Price, SelectionColor,
-    TextColor, Colors,BoxWrapperPaint,Paint,
+    TextColor, Colors,BoxWrapperPaint,BoxPaint,
     OldPrice, ForCash,Payment ,BoxRigth } from './styled.js'
 
 import produtos from '../../data'
 import logoWhite from '../../assets/img/sectionAssets/logoBranco.png'
-import cicleRed from '../../assets/img/headerAssets/EllipseRed.png'
-import cicleBlack from '../../assets/img/sectionAssets/corPreta.png'
-import cicleWhite from '../../assets/img/sectionAssets/corBranca.png'
+
 
 
 function SectionBanner() {
@@ -50,26 +48,29 @@ function SectionBanner() {
                                 <TextColor>
                                     Selecione a cor
                                 </TextColor>
+
                                     <Colors>
+                                        <BoxWrapperPaint>
+                                            <BoxPaint>
+                                                    <input type='radio' name='radio'value='Preto/Vermelho'/>
+                                                    <div className='color'style={{backgroundColor:'#CB3738'}}/>
+                                            </BoxPaint>
+                                        </BoxWrapperPaint>
+
+                                        <BoxWrapperPaint>
+                                            <BoxPaint>
+                                                <input type='radio' name='radio' value='Preto/Cinza'/>
+                                                <div className='color'style={{backgroundColor:'#000'}}/>
+                                            </BoxPaint>
+                                        </BoxWrapperPaint>
+
                                     <BoxWrapperPaint>
-                                        <Paint>
-                                            <input type='radio' name='radio'value='Preto/Vermelho'/>
-                                            <div className='paint'style={{backgroundColor:'#CB3738'}}/>
-                                        </Paint>
-                                    </BoxWrapperPaint>
-                                    <BoxWrapperPaint>
-                                        <Paint>
-                                            <input type='radio' name='radio' value='Preto/Cinza'/>
-                                            <div className='paint'style={{backgroundColor:'#000'}}/>
-                                        </Paint>
-                                    </BoxWrapperPaint>
-                                    <BoxWrapperPaint>
-                                        <Paint>
+                                        <BoxPaint>
                                             <input type='radio' name='radio' value='Branco'/>
-                                            <div className='paint'style={{backgroundColor:'#FFF'}}/>
-                                        </Paint>
+                                            <div className='color'style={{backgroundColor:'#FFF'}}/>
+                                        </BoxPaint>
                                     </BoxWrapperPaint>
-                                    </Colors>
+                                </Colors>
                             </SelectionColor>
                     </DetailsBox>
                 </BoxLeft>

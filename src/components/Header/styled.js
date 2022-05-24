@@ -50,7 +50,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Navegation = styled.nav`
-background-color: brown;
+    background-color: brown;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -561,7 +561,9 @@ export const BoxPaints = styled.form`
 `;
 
 export const BoxWrapperPaint = styled.label`
-    display:block;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     cursor: pointer;
     margin-bottom: 10px;
 
@@ -569,7 +571,8 @@ export const BoxWrapperPaint = styled.label`
         display:none;
     }
     
-`
+`;
+
 export const Paint = styled.div`
     display:flex;
     align-items: center;
@@ -579,17 +582,21 @@ export const Paint = styled.div`
     border-radius: 50%;
     background-color:transparent;
     margin-left: 10px;
-    border:0.5px solid black;
+    /* border:0.5px solid black; */
+    
+    :hover{
+        border:1px solid black;
+    }
     
     @media(max-width:1024px){
-        width: 25px;
-        height: 25px;
+        width: 23px;
+        height: 23px;
         margin-left: 8px;
     }
 
     @media(max-width:834px){
-        width: 23px;
-        height: 23px;
+        width: 20px;
+        height: 20px;
         margin-left: 7px;
     }
 
@@ -647,10 +654,9 @@ export const Paint = styled.div`
         width: 7px;
         height: 7px;
     }
-}
-   
-     
-`
+} 
+
+`;
   
 
 export const BoxPoltrona = styled.div`
@@ -735,4 +741,4 @@ export const BoxPoltrona = styled.div`
    
     }
    
-`
+`;
