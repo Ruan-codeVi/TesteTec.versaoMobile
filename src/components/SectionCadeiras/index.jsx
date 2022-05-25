@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import { Section, Wrapper, BoxInfos,BoxTitle, 
-    Title,Description, SubTitle, ArrowRight, BoxPolt, 
-    BoxChair, ContatinerChair, 
-    BoxInfosChair,InfoComp, BoxArrowRight02 } from './styled.js'
+        Title,Description, SubTitle, ArrowRight, BoxPolt, 
+        BoxChair, ContainerChair,
+        BoxInfosChair,InfoComp, BoxArrowRight02 } 
+from './styled.js'
+
 import produtos from '../../data'
 import Rigth from '../../assets/img/sectionAssets/flechaDireita02.png'
 import RigthArrow02 from '../../assets/img/sectionAssets/flechaDireita.png'
@@ -30,28 +36,30 @@ function SectionCadeiras() {
                         <img src={Rigth} alt="Flecha Direita" />
                     </ArrowRight>
             </BoxInfos>
-            <BoxPolt>
-                <BoxChair>
-                    {produtos.map((cadeira)=>{
-                        if(cadeira.id > 5 && cadeira.id < 9)
-                            return (  
-                                <ContatinerChair key={cadeira.id}> 
-                                        <img  src={cadeira.img} alt="cadeira"/>                               
-                                    <BoxInfosChair> 
-                                        <InfoComp>{cadeira.nome}</InfoComp>
-                                        <InfoComp>R${cadeira.preco}</InfoComp>
-                                    </BoxInfosChair>
-                                </ContatinerChair>
-                            );
-                            return produtos ? true : null;
-                        })}
-                    </BoxChair>
+                <BoxPolt>
+                        <Slider  slidesToShow={3} arrows={false}>
+                            {produtos.map((item)=>{
+                                 return(
+                                    <ContainerChair>
+                                        <div className='boxImg' key={item.id}>
+                                            <div className='imagem'>
+                                                <img src={item.img} alt={item.nome} />
+                                            </div>
+                                            <div className='infos'>
+                                                <span>{item.nome}</span>
+                                                <span>R${item.precoAntigo}</span>
+                                                <span>R${item.preco}</span>
+                                            </div>
+                                        </div>
+                                     </ContainerChair>
+                                 );   
+                            })}
+                        </Slider>
+            </BoxPolt>
                 <BoxArrowRight02>
                         <img  src={RigthArrow02} alt="Esquerda"/>
-                        <img src={RigthArrow02} alt="Direita" />
-                       
+                        <img src={RigthArrow02} alt="Direita" />  
                 </BoxArrowRight02>
-            </BoxPolt>
         </Wrapper>
     </Section>
     )

@@ -9,7 +9,7 @@ export const Banner = styled.section`
     height: 620.01px;
     background-color: pink;
 
-    /* Responsive Componente Banner */
+   
     @media(max-width:1024px){
         height: 30rem;
     }
@@ -28,7 +28,6 @@ export const Banner = styled.section`
 
     @media(max-width:600px){
         height: 18rem;
-        /* margin-top: 5rem; */
     }
 
     @media(max-width:414px){
@@ -57,7 +56,7 @@ export const BoxLeft = styled.div`
     margin-top: 63.01px;
     color: rgba(255, 255, 255, 1);
 
-    /* Responsive Componente BoxEsquerdo  */
+    
     @media(max-width:1024px){
         margin-left: 4rem;
         margin-top: 2.5rem;
@@ -170,10 +169,10 @@ export const Description = styled.p`
 `;
 
 export const Logo = styled.div`
-/* background-color: black; */
-img{
-      width:58%;
-      height:58%;
+
+    img{
+       width:58%;
+       height:58%;
 
     @media(max-width:1024px){
         width: 43%;
@@ -249,7 +248,7 @@ export const ForCash = styled.span`
     font-weight: 700;
     font-size: 48px;
 
-        /* Responsive Classe Avista */
+    
     @media(max-width:1024px){
         font-size: 2.5rem;
     }
@@ -321,7 +320,8 @@ export const SelectionColor = styled.div`
         margin-top: 2.5rem;
     }
 
-`
+`;
+
 export const TextColor = styled.span`
     text-align: center;
     background-color: brown;
@@ -375,7 +375,8 @@ export const Colors = styled.form`
         margin: 0 0.3rem
     }
 }
-`
+
+`;
 
 export const BoxWrapperPaint = styled.label`
     display:flex;
@@ -387,22 +388,20 @@ export const BoxWrapperPaint = styled.label`
     input[type="radio"]{
         display:none;
     }
-
-
 `;
 
 export const BoxPaint = styled.div`
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        width: 21px;
-        height: 21px;
-        border-radius: 50%;
-        /* margin-left: 4px; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
         
-        :hover{
-            border:1px solid white ;
-        }
+        
+    :hover{
+        border:1px solid white;
+    }
 
     @media(max-width:1024px){
         width: 20px;
@@ -473,7 +472,10 @@ export const BoxPaint = styled.div`
         width: 7.5px;
         height: 7.5px;
     }
-`
+
+}  
+
+`;
     
 
 
@@ -484,7 +486,7 @@ export const BoxRigth = styled.div`
     margin-top: 80px;
     background-color: orange;
 
-    /* Responsive Componente BoxDireito  */
+    
     @media(max-width:1024px){
         width:22rem;
         height:23rem;
@@ -546,4 +548,4 @@ export const BoxRigth = styled.div`
         height: 100%;
     }
 
-`
+`;

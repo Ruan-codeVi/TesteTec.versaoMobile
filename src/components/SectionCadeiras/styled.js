@@ -44,10 +44,15 @@ export const Section = styled.section `
 export const Wrapper = styled.div `
   background-color: blueviolet;
   display: flex;
-  justify-content: space-between;
+  /* align-items:center ; */
   width: 100%;
   height: 514.12px;
   margin-top: 235.77px;
+
+  img{
+      width: 40px;
+      height: 40px;
+    } 
 
     /* Reponsive Componente Wrapper */
     @media(max-width: 1024px){
@@ -226,8 +231,8 @@ export const Description = styled.p`
 export const ArrowRight = styled.div `
   display: flex;
   background-color: rgba(62, 62, 62, 1);
-  width: 67.04px;
-  height: 67.04px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -236,6 +241,7 @@ export const ArrowRight = styled.div `
   cursor: pointer;
 
   
+
     @media(max-width: 1024px){
        width: 3.5rem;
        height: 3.5rem;
@@ -272,18 +278,20 @@ export const ArrowRight = styled.div `
        display: none;
     }
 
-    img{
-      width: 60%;
-      height: 60%;
-    }  
+    
 `;
 
 export const BoxPolt = styled.div `
   background-color: green;
   width: 860px;
-  display: flex;
-  align-items: center;
-  
+  margin-left:55px;
+
+  .imagem img{
+         width:300px;
+         height:320px;
+         /* object-fit:contain;  */
+     }
+   
 
     @media(max-width: 1024px){
         width: 42rem;
@@ -317,22 +325,25 @@ export const BoxPolt = styled.div `
     }  
 `;
 
-export const BoxChair = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+// export const BoxChair = styled.div`
+//   /* display: flex; */
+//   align-items: center;
+//   justify-content: center;
+//   height: 100%;
     
-`;
+//     
+// `;
 
-export const ContatinerChair = styled.div`
+export const ContainerChair = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: center;
   height: 100%;
   transition: 0.2s linear;
-  width: 270px;
+  /* width: 270px; */
+  background-color:blue;
+  /* margin-left:10px ; */
 
     :hover{
         background-color:rgba(246, 246, 246, 1);
@@ -383,8 +394,6 @@ export const ContatinerChair = styled.div`
     }
       
     img{
-      background-color: antiquewhite;
-      margin-top: 10px;
       width: 220px;
       height: 260px;
 
@@ -406,6 +415,8 @@ export const ContatinerChair = styled.div`
   }
 
 `;
+
+
 
 export const BoxInfosChair = styled.div`
   background-color: blueviolet;
@@ -446,11 +457,11 @@ export const InfoComp = styled.span`
 `;
 
 export const BoxArrowRight02 = styled.div `
-  margin-top: 60px;
-  margin-left: 20px;
+  background-color: white;
+  /* display:inline-block; */
   cursor: pointer;
-  height: auto;
-  width: auto;
+  margin-top:250px ;
+  
   
     img:first-child{
         display: none;
