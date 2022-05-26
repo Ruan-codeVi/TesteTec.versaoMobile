@@ -277,13 +277,12 @@ export const ArrowRight = styled.div `
        display: none;
     }
 
-    
 `;
 
 export const BoxPolt = styled.div `
   background-color: green;
-  width: 860px;
-  margin-left:55px;
+  width: 830px;
+  margin-left:50px;
 
 
     @media(max-width: 1024px){
@@ -334,9 +333,6 @@ export const ContainerChair = styled.div`
         background-color:rgba(246, 246, 246, 1);
     }
 
-    .imagem{
-        /* margin-left:20px; */
-    }
 
     .imagem img{
          width:240px;
@@ -411,7 +407,7 @@ export const BoxChair = styled.div`
   flex-direction:column;
   align-items:center;
 
-`
+`;
 
 export const BoxInfosChair = styled.div`
   background-color: greenyellow;
@@ -452,9 +448,10 @@ export const InfoComp = styled.span`
 `;
 
 export const BoxArrowRight02 = styled.div `
-  background-color: white;
+  /* background-color: white; */
   cursor: pointer;
-  margin-top:250px ;
+  margin-top:210px;
+  margin-left:20px ;
   
   
     img:first-child{
@@ -477,6 +474,8 @@ export const BoxArrowRight02 = styled.div `
 }
 
     img{
+        width:35px;
+        height:35px;
 
     @media(max-width: 834px){
         width: 69%;

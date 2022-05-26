@@ -47,7 +47,9 @@ function SectionCadeiras() {
                                             </div>
                                             <BoxInfosChair>
                                                 <InfoComp>{item.nome}</InfoComp>
-                                                <InfoComp>R${item.precoAntigo}</InfoComp>
+                                                {item.precoAntigo ? <InfoComp>R${item.precoAntigo}</InfoComp> 
+                                                 : <InfoComp style={{display:'none'}}></InfoComp>}
+                                                
                                                 <InfoComp>R${item.preco}</InfoComp>
                                             </BoxInfosChair>
                                         </BoxChair>
