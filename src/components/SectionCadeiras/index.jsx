@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useRef} from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -15,6 +15,16 @@ import RigthArrow02 from '../../assets/img/sectionAssets/flechaDireita.png'
 
 
 function SectionCadeiras() {
+ const sliderRef = useRef(null)
+
+
+ const handleNext = ()=>{
+     sliderRef.current.slickNext();
+ }
+
+ const handlePrev = ()=>{
+    sliderRef.current.slickPrev();
+ }
     return (
     <Section>
         <Wrapper>
@@ -37,7 +47,7 @@ function SectionCadeiras() {
                     </ArrowRight>
             </BoxInfos>
                 <BoxPolt>
-                        <Slider  slidesToShow={3} arrows={false}>
+                        <Slider ref={sliderRef}  slidesToShow={3} arrows={false}>
                             {produtos.map((item)=>{
                                  return(
                                     <ContainerChair>
@@ -60,8 +70,8 @@ function SectionCadeiras() {
                         </Slider>
             </BoxPolt>
                 <BoxArrowRight02>
-                        <img  src={RigthArrow02} alt="Esquerda"/>
-                        <img src={RigthArrow02} alt="Direita" />  
+                        <img  src={RigthArrow02} alt="Voltar" onClick={handlePrev}/>
+                        <img src={RigthArrow02} alt="Avançar" onClick={handleNext} />  
                 </BoxArrowRight02>
         </Wrapper>
     </Section>
