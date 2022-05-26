@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 
-export const Section = styled.section `
+export const Section = styled.section`
   background-color: red;
   display: flex;
   position: relative;
@@ -41,7 +41,7 @@ export const Section = styled.section `
     }
 `;
 
-export const Wrapper = styled.div `
+export const Wrapper = styled.div`
   background-color: blueviolet;
   display: flex;
   width: 100%;
@@ -94,7 +94,7 @@ export const Wrapper = styled.div `
     
 `;
 
-export const BoxInfos = styled.div `
+export const BoxInfos = styled.div`
   background-color: pink;
   width: auto;
   margin-left: 84px;
@@ -136,7 +136,7 @@ export const BoxInfos = styled.div `
 
 `;
 
-export const BoxTitle = styled.div `
+export const BoxTitle = styled.div`
   background-color: aquamarine;
   margin-bottom: 44px;
   width: 230px;
@@ -189,7 +189,7 @@ export const Title = styled.h1`
     }
 `;
 
-export const SubTitle = styled.div `
+export const SubTitle = styled.div`
   background-color: brown;
   width: 250px;
 
@@ -227,7 +227,7 @@ export const Description = styled.p`
     }    
 `;
 
-export const ArrowRight = styled.div `
+export const ArrowRight = styled.div`
   display: flex;
   background-color: rgba(62, 62, 62, 1);
   width: 60px;
@@ -279,7 +279,7 @@ export const ArrowRight = styled.div `
 
 `;
 
-export const BoxPolt = styled.div `
+export const BoxPolt = styled.div`
   background-color: green;
   width: 830px;
   margin-left:50px;
@@ -447,8 +447,7 @@ export const InfoComp = styled.span`
     }
 `;
 
-export const BoxArrowRight02 = styled.div `
-  /* background-color: white; */
+export const BoxArrowRight02 = styled.div`
   cursor: pointer;
   margin-top:210px;
   margin-left:20px ;
@@ -464,8 +463,6 @@ export const BoxArrowRight02 = styled.div `
         display: flex;
         height: auto;
         width: auto;
-  
-    
 
     img:first-child{
         display: block;
@@ -518,8 +515,6 @@ export const BoxArrowRight02 = styled.div `
         height: 50%;
         margin-left: 0;
     }
-
-   
 }
 
 `;
