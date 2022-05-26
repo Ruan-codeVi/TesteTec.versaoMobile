@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Banner, ContainerBanner, BoxLeft,
     Title,Description,Logo, DetailsBox,Price, SelectionColor,
     TextColor, Colors,BoxWrapperPaint,BoxPaint,
@@ -10,6 +10,36 @@ import logoWhite from '../../assets/img/sectionAssets/logoBranco.png'
 
 
 function SectionBanner() {
+    const [capa, setCapa] = useState([])
+    const [trocou, setTrocou] = useState(false)
+    const [novaCor, setNovaCor] = useState([])
+
+    useEffect(()=> {
+
+        const carregaCapa =()=>{
+            produtos.map((poltrona)=> {
+                if(poltrona.id === 12){
+                  setCapa(poltrona.img)
+                }
+                return !produtos ? null : true
+              })
+            }
+            carregaCapa()
+          },[] )
+
+    const trocaCor = (e)=>{
+        console.log(e.target.value)
+    
+        produtos.map((poltrona)=>{
+          if(poltrona.cor === e.target.value){
+              setTrocou(true)
+              setNovaCor(poltrona.img)
+          }
+          return console.log('Ok')
+        })
+    
+      }
+
     return (
     <Banner>
         <ContainerBanner>
@@ -49,7 +79,7 @@ function SectionBanner() {
                                     Selecione a cor
                                 </TextColor>
 
-                                    <Colors>
+                                    <Colors onChange={trocaCor}>
                                         <BoxWrapperPaint>
                                             <BoxPaint>
                                                     <input type='radio' name='radio'value='Preto/Vermelho'/>
@@ -74,13 +104,9 @@ function SectionBanner() {
                             </SelectionColor>
                     </DetailsBox>
                 </BoxLeft>
-                <BoxRigth>
-                {produtos.map((poltrona)=>{
-                        if(poltrona.id === 12)
-                            return <img key={poltrona.id} src={poltrona.img} alt="cadeira gamer preta/vermelha" />
-
-                      return produtos ? true : null;
-                    })}
+            <BoxRigth>
+                {trocou ? <img src={novaCor} alt='poltrona imagem'/>
+                        : <img src={capa} alt='poltrona imagem'/> } 
             </BoxRigth>
         </ContainerBanner>
     </Banner>

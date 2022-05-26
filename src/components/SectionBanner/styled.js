@@ -480,8 +480,7 @@ export const BoxPaint = styled.div`
 
 
 export const BoxRigth = styled.div`
-    width: 483px;
-    height: 483px;
+    
     margin-right: 100px;
     margin-top: 80px;
     background-color: orange;
@@ -544,8 +543,10 @@ export const BoxRigth = styled.div`
     }
 
     img{
-        width: 100%;
-        height: 100%;
+        /* width: 100%;
+        height: 100%; */
+        width: 483px;
+        height: 483px;
     }
 
 `;

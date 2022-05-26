@@ -25,7 +25,8 @@ function SectionCadeiras() {
  const handlePrev = ()=>{
     sliderRef.current.slickPrev();
  }
-    return (
+ 
+return (
     <Section>
         <Wrapper>
             <BoxInfos>
