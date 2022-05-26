@@ -41,16 +41,17 @@ function SectionCadeiras() {
                             {produtos.map((item)=>{
                                  return(
                                     <ContainerChair>
-                                        <div className='boxImg' key={item.id}>
+                                         <BoxChair key={item.id}>
                                             <div className='imagem'>
                                                 <img src={item.img} alt={item.nome} />
                                             </div>
-                                            <div className='infos'>
-                                                <span>{item.nome}</span>
-                                                <span>R${item.precoAntigo}</span>
-                                                <span>R${item.preco}</span>
-                                            </div>
-                                        </div>
+                                            <BoxInfosChair>
+                                                <InfoComp>{item.nome}</InfoComp>
+                                                <InfoComp>R${item.precoAntigo}</InfoComp>
+                                                <InfoComp>R${item.preco}</InfoComp>
+                                            </BoxInfosChair>
+                                        </BoxChair>
+                                        
                                      </ContainerChair>
                                  );   
                             })}

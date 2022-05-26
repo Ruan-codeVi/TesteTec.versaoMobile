@@ -8,7 +8,7 @@ export const Section = styled.section `
   width: 100%;
   height: 909.99px;
 
-    /* Reponsive Componente Section */
+   
     @media(max-width: 1024px){
         height: 45rem;
         width: 100%;
@@ -44,7 +44,6 @@ export const Section = styled.section `
 export const Wrapper = styled.div `
   background-color: blueviolet;
   display: flex;
-  /* align-items:center ; */
   width: 100%;
   height: 514.12px;
   margin-top: 235.77px;
@@ -286,12 +285,6 @@ export const BoxPolt = styled.div `
   width: 860px;
   margin-left:55px;
 
-  .imagem img{
-         width:300px;
-         height:320px;
-         /* object-fit:contain;  */
-     }
-   
 
     @media(max-width: 1024px){
         width: 42rem;
@@ -325,14 +318,6 @@ export const BoxPolt = styled.div `
     }  
 `;
 
-// export const BoxChair = styled.div`
-//   /* display: flex; */
-//   align-items: center;
-//   justify-content: center;
-//   height: 100%;
-    
-//     
-// `;
 
 export const ContainerChair = styled.div`
   display: flex;
@@ -341,12 +326,22 @@ export const ContainerChair = styled.div`
   text-align: center;
   height: 100%;
   transition: 0.2s linear;
-  /* width: 270px; */
+  margin-top:15px ;
   background-color:blue;
-  /* margin-left:10px ; */
+  
 
     :hover{
         background-color:rgba(246, 246, 246, 1);
+    }
+
+    .imagem{
+        /* margin-left:20px; */
+    }
+
+    .imagem img{
+         width:240px;
+         height:270px;
+         object-fit:contain; 
     }
 
     @media(max-width: 1024px){
@@ -393,9 +388,6 @@ export const ContainerChair = styled.div`
         width: 6rem;
     }
       
-    img{
-      width: 220px;
-      height: 260px;
 
     @media(max-width: 1024px){
         width: 75%;
@@ -412,14 +404,17 @@ export const ContainerChair = styled.div`
         height: 50%;
     }
      
-  }
-
 `;
 
+export const BoxChair = styled.div`
+  display: flex;
+  flex-direction:column;
+  align-items:center;
 
+`
 
 export const BoxInfosChair = styled.div`
-  background-color: blueviolet;
+  background-color: greenyellow;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -458,7 +453,6 @@ export const InfoComp = styled.span`
 
 export const BoxArrowRight02 = styled.div `
   background-color: white;
-  /* display:inline-block; */
   cursor: pointer;
   margin-top:250px ;
   
@@ -482,9 +476,7 @@ export const BoxArrowRight02 = styled.div `
     }
 }
 
-  img{
-
-    
+    img{
 
     @media(max-width: 834px){
         width: 69%;
