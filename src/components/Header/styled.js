@@ -667,13 +667,13 @@ export const BoxPoltrona = styled.div`
     
   
     @media(max-width:1024px){
-        margin-right:1rem;
+        /* margin-right:1rem; */
         margin-top: 0.8rem;
     }
 
     @media(max-width:834px){
-        margin-right:6rem;
-        margin-top: 0.9rem;
+        /* margin-right:1rem; */
+        margin-top: 0.5rem;
     }
 
     @media(max-width:800px){
@@ -705,13 +705,14 @@ export const BoxPoltrona = styled.div`
         height:556px;
 
     @media(max-width:1024px){
-        width: 95%;
-        height: 80%;
+        width: 94%;
+        height: 88%;
+        margin-left:3rem ;
     }
 
     @media(max-width:834px){
-        width: 20rem;
-        height: 20rem;
+        width: 93%;
+        height: 87%;
     }
 
     @media(max-width:800px){
