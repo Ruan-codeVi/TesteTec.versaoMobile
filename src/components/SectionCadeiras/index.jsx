@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import { Section, Wrapper, BoxInfos,BoxTitle, 
         Title,Description, SubTitle, ArrowRight, BoxPolt, 
-        BoxChair, ContainerChair,
+        BoxChair, ContainerChair, BoxImg,
         BoxInfosChair,InfoComp, BoxArrowRight02 } 
 from './styled.js'
 
@@ -53,9 +53,9 @@ return (
                                  return(
                                     <ContainerChair>
                                          <BoxChair key={item.id}>
-                                            <div className='imagem'>
-                                                <img src={item.img} alt={item.nome} />
-                                            </div>
+                                             <BoxImg>
+                                                    <img src={item.img} alt={item.nome} />
+                                             </BoxImg>
                                             <BoxInfosChair>
                                                 <InfoComp>{item.nome}</InfoComp>
                                                 {item.precoAntigo ? <InfoComp>R${item.precoAntigo}</InfoComp> 

@@ -56,7 +56,7 @@ export const Wrapper = styled.div`
     /* Reponsive Componente Wrapper */
     @media(max-width: 1024px){
         width: 100%;
-        height: 25rem;
+        height: 25.3rem;
         margin-top: 15rem;
     }
 
@@ -282,11 +282,12 @@ export const ArrowRight = styled.div`
 export const BoxPolt = styled.div`
   background-color: green;
   width: 830px;
-  margin-left:50px;
+  margin-left:60px;
 
 
     @media(max-width: 1024px){
-        width: 42rem;
+        width: 38rem;
+        margin-left:3rem;
     }
 
     @media(max-width: 834px){
@@ -325,7 +326,7 @@ export const ContainerChair = styled.div`
   text-align: center;
   height: 100%;
   transition: 0.2s linear;
-  margin-top:15px ;
+  margin-top:15px;
   background-color:blue;
   
 
@@ -333,15 +334,9 @@ export const ContainerChair = styled.div`
         background-color:rgba(246, 246, 246, 1);
     }
 
-
-    .imagem img{
-         width:240px;
-         height:270px;
-         object-fit:contain; 
-    }
-
     @media(max-width: 1024px){
-        width: 13rem;
+        margin-top:0rem;
+        
     }
 
     @media(max-width: 834px){
@@ -409,6 +404,22 @@ export const BoxChair = styled.div`
 
 `;
 
+export const BoxImg = styled.div`
+
+
+ img{
+         width:240px;
+         height:270px;
+         object-fit:contain; 
+
+        @media(max-width: 1024px){
+            width:210px;
+            height:250px;   
+            margin-right:0.6rem;
+    }
+}
+`;
+
 export const BoxInfosChair = styled.div`
   background-color: greenyellow;
   display: flex;
@@ -416,6 +427,12 @@ export const BoxInfosChair = styled.div`
   justify-content: center;
   align-content: center;
   margin-top:25px;
+
+        @media(max-width: 1024px){
+            margin-top:0.2rem;
+            
+    }
+
 `;
 
 export const InfoComp = styled.span`
@@ -425,6 +442,11 @@ export const InfoComp = styled.span`
   margin-bottom: 20.74px;
   background: black;
   width: 110px;
+
+    @media(max-width: 1024px){
+        font-size:1.2rem;
+        margin-bottom: 0.8rem;
+    }
 
     @media(max-width: 834px){
         font-size: 1.3rem;

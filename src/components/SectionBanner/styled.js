@@ -543,10 +543,9 @@ export const BoxRigth = styled.div`
     }
 
     img{
-        /* width: 100%;
-        height: 100%; */
         width: 483px;
         height: 483px;
+        object-fit:contain ;
     }
 
 `;
