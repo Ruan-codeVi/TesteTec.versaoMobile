@@ -335,8 +335,7 @@ export const ContainerChair = styled.div`
     }
 
     @media(max-width: 1024px){
-        margin-top:0rem;
-        
+        margin-top:0rem; 
     }
 
     @media(max-width: 834px){
@@ -407,7 +406,7 @@ export const BoxChair = styled.div`
 export const BoxImg = styled.div`
 
 
- img{
+    img{
          width:240px;
          height:270px;
          object-fit:contain; 
@@ -446,6 +445,7 @@ export const InfoComp = styled.span`
     @media(max-width: 1024px){
         font-size:1.2rem;
         margin-bottom: 0.8rem;
+        width:6rem;
     }
 
     @media(max-width: 834px){

@@ -545,7 +545,12 @@ export const BoxRigth = styled.div`
     img{
         width: 483px;
         height: 483px;
-        object-fit:contain ;
+        object-fit:contain;
+
+        @media(max-width:1024px){
+        width:23.5rem;
+        height:23.5rem;
+        
     }
 
 `;
