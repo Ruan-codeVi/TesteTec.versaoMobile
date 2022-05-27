@@ -291,7 +291,7 @@ export const BoxPolt = styled.div`
     }
 
     @media(max-width: 834px){
-        width: 33rem;
+        width: 30rem;
     }
 
     @media(max-width: 800px){
@@ -405,16 +405,21 @@ export const BoxChair = styled.div`
 
 export const BoxImg = styled.div`
 
-
     img{
-         width:240px;
-         height:270px;
-         object-fit:contain; 
+        width:240px;
+        height:270px;
+        object-fit:contain; 
 
-        @media(max-width: 1024px){
-            width:210px;
-            height:250px;   
-            margin-right:0.6rem;
+    @media(max-width: 1024px){
+        width:210px;
+        height:250px;   
+        margin-right:0.6rem;
+    }
+
+    @media(max-width: 834px){
+        width:10.7rem;
+        height:12.5rem;   
+        margin-right:0.4rem;
     }
 }
 `;
@@ -427,9 +432,8 @@ export const BoxInfosChair = styled.div`
   align-content: center;
   margin-top:25px;
 
-        @media(max-width: 1024px){
-            margin-top:0.2rem;
-            
+    @media(max-width: 1024px){
+        margin-top:0.2rem;     
     }
 
 `;
@@ -451,6 +455,7 @@ export const InfoComp = styled.span`
     @media(max-width: 834px){
         font-size: 1.3rem;
         width: 6.5rem;
+        margin-bottom: 0.5rem;
     }
 
     @media(max-width: 800px){
@@ -472,8 +477,14 @@ export const InfoComp = styled.span`
 export const BoxArrowRight02 = styled.div`
   cursor: pointer;
   margin-top:210px;
-  margin-left:20px ;
-  
+  margin-left:20px;
+
+
+
+    @media(max-width: 834px){
+        margin-top:8rem;
+        margin-left:0.5rem;
+    }
   
     img:first-child{
         display: none;
@@ -497,8 +508,9 @@ export const BoxArrowRight02 = styled.div`
         height:35px;
 
     @media(max-width: 834px){
-        width: 69%;
-        height: 69%;
+        width: 2rem;
+        height: 2rem;
+        margin-top:1rem;
     }
 
     @media(max-width: 800px){

@@ -515,7 +515,7 @@ export const BoxPaints = styled.form`
 
     @media(max-width:834px){
        margin-top: 1.5rem;
-       margin-right:6.5rem ;
+       margin-right:3rem;
     }
 
     @media(max-width:800px){
@@ -667,13 +667,11 @@ export const BoxPoltrona = styled.div`
     
   
     @media(max-width:1024px){
-        /* margin-right:1rem; */
         margin-top: 0.8rem;
     }
 
     @media(max-width:834px){
-        /* margin-right:1rem; */
-        margin-top: 0.5rem;
+        margin-top: 1.5rem;
     }
 
     @media(max-width:800px){
@@ -707,12 +705,12 @@ export const BoxPoltrona = styled.div`
     @media(max-width:1024px){
         width: 94%;
         height: 88%;
-        margin-left:3rem ;
+        margin-left:3.5rem;
     }
 
     @media(max-width:834px){
         width: 93%;
-        height: 87%;
+        height: 92%;
     }
 
     @media(max-width:800px){

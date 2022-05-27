@@ -64,7 +64,6 @@ return (
                                                 <InfoComp>R${item.preco}</InfoComp>
                                             </BoxInfosChair>
                                         </BoxChair>
-                                        
                                      </ContainerChair>
                                  );   
                             })}
