@@ -295,7 +295,7 @@ export const BoxPolt = styled.div`
     }
 
     @media(max-width: 800px){
-        width: 31rem;
+        width: 28rem;
     }
 
     @media(max-width: 768px){
@@ -421,6 +421,12 @@ export const BoxImg = styled.div`
         height:12.5rem;   
         margin-right:0.4rem;
     }
+
+    @media(max-width: 800px){
+        width:9.7rem;
+        height:11.5rem;   
+        margin-right:0.2rem;
+    }
 }
 `;
 
@@ -514,8 +520,8 @@ export const BoxArrowRight02 = styled.div`
     }
 
     @media(max-width: 800px){
-        width: 65%;
-        height: 65%;
+        width: 1.8rem;
+        height: 1.8rem;
     }
     
     @media(max-width: 768px){
