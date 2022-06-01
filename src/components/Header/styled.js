@@ -380,7 +380,8 @@ export const BoxSubTitle = styled.div`
         width: 13.6rem;
     }
 
-`
+`;
+
 export const TextSecod = styled.h2`
     font-weight:300;
     font-size: 19.1px;
@@ -409,7 +410,7 @@ export const TextSecod = styled.h2`
     @media(max-width:414px){
        font-size:0.8rem
     }
-`
+`;
 
 
 export const BoxButtons = styled.div`
@@ -490,14 +491,13 @@ export const BoxButtons = styled.div`
     background-color: transparent;
     border: 2.1227px solid rgba(62, 62, 62, 1);
 }
+
 `;
 
 export const BoxLeft = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    
- 
 `;
 
 export const BoxPaints = styled.form`
@@ -520,7 +520,7 @@ export const BoxPaints = styled.form`
 
     @media(max-width:800px){
        margin-top: 1.5rem;
-       margin-right:7.9rem;
+       margin-right:3.7rem;
     }
 
     @media(max-width:768px){
@@ -664,20 +664,7 @@ export const BoxPoltrona = styled.div`
     margin-right:80px;
     margin-top: 15px;
     
-    
-  
-    @media(max-width:1024px){
-        margin-top: 0.8rem;
-    }
 
-    @media(max-width:834px){
-        margin-top: 1.5rem;
-    }
-
-    @media(max-width:800px){
-        margin-right:4.1rem;
-        margin-top: 1rem;
-    }
 
     @media(max-width:768px){
         margin-right:4rem;
@@ -711,11 +698,15 @@ export const BoxPoltrona = styled.div`
     @media(max-width:834px){
         width: 93%;
         height: 92%;
+        margin-top:0.5rem;
     }
 
     @media(max-width:800px){
-        width: 19rem;
-        height: 19rem;
+        width: 92%;
+        height: 92%;
+        margin-left:3.3rem;
+        margin-top:0.6rem ;
+        /* background-color:aqua ; */
     }
 
     @media(max-width:768px){
