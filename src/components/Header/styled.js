@@ -498,6 +498,7 @@ export const BoxLeft = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 `;
 
 export const BoxPaints = styled.form`
@@ -529,8 +530,8 @@ export const BoxPaints = styled.form`
     }
 
     @media(max-width:600px){
-       margin-top: 0.6rem;
-       margin-right:6.8rem;
+       margin-top: 1rem;
+       margin-right:4.2rem;
     }
 
     @media(max-width:414px){
@@ -665,14 +666,6 @@ export const BoxPoltrona = styled.div`
     margin-top: 15px;
     
 
-
-    
-
-    @media(max-width:600px){
-        margin-right:2.9rem;
-        margin-top: 1.2rem;
-    }
-
     @media(max-width:414px){
         display: flex;
         align-items: center;
@@ -713,8 +706,9 @@ export const BoxPoltrona = styled.div`
     }
 
     @media(max-width:600px){
-        width: 14rem;
-        height: 14rem;
+        width: 91%;
+        height: 91%;
+        margin-top:0.7rem; 
     }
 
     @media(max-width:414px){
