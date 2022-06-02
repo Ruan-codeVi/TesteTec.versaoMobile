@@ -438,7 +438,8 @@ export const BoxImg = styled.div`
     @media(max-width: 600px){
         width:11.5rem;
         height:13rem;   
-        margin-right:0.5rem;  
+        margin-right:0.5rem;
+          
     }
 }
 `;
@@ -517,7 +518,8 @@ export const BoxArrowRight02 = styled.div`
         img:first-child{
         display: block;
         transform: rotate(180deg);
-     }
+        margin-right:0.7rem;
+      }
     }
   
     

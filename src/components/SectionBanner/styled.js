@@ -566,6 +566,11 @@ export const BoxRigth = styled.div`
         width:18rem;
         height:18rem;   
     }
+
+    @media(max-width:600px){
+        width:15rem;
+        height:15rem;   
+    }
 }
 
 `;
