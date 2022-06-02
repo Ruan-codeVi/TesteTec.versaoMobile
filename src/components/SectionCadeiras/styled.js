@@ -30,7 +30,7 @@ export const Section = styled.section`
     }
 
     @media(max-width: 600px){
-        height: 40rem;
+        height: 45rem;
         width: 100%;
     }
 
@@ -81,7 +81,7 @@ export const Wrapper = styled.div`
     @media(max-width: 600px){
        flex-direction: column;
        align-items: center;
-       height: 28rem;
+       height: 36rem;
     }
 
     @media(max-width: 414px){
@@ -305,6 +305,7 @@ export const BoxPolt = styled.div`
     @media(max-width: 600px){
         width: 100%;
         margin-top: 1rem;
+        margin-left:0;
     }  
 
     @media(max-width: 414px){
@@ -327,7 +328,7 @@ export const ContainerChair = styled.div`
   height: 100%;
   transition: 0.2s linear;
   margin-top:15px;
-  background-color:blue;
+  /* background-color:blue; */
   
 
     :hover{
@@ -351,7 +352,7 @@ export const ContainerChair = styled.div`
     }
 
     @media(max-width: 600px){
-        width: 11rem;
+        width: 8rem;
     }
 
     @media(max-width: 414px){
@@ -433,6 +434,12 @@ export const BoxImg = styled.div`
         height:11rem;   
         margin-right:0.2rem;
     }
+
+    @media(max-width: 600px){
+        width:11.5rem;
+        height:13rem;   
+        margin-right:0.5rem;  
+    }
 }
 `;
 
@@ -491,16 +498,29 @@ export const BoxArrowRight02 = styled.div`
   margin-top:210px;
   margin-left:20px;
 
-
+  img:first-child{
+        display: none;
+    }
 
     @media(max-width: 834px){
         margin-top:8rem;
         margin-left:0.5rem;
     }
-  
-    img:first-child{
-        display: none;
+
+    @media(max-width: 600px){
+        display:flex;
+        justify-content:center ;
+        background-color:blanchedalmond ;
+        margin-top:0;
+        margin-left:0rem;
+
+        img:first-child{
+        display: block;
+        transform: rotate(180deg);
+     }
     }
+  
+    
 
     @media(max-width: 320px){
         margin-top: 0.7rem;
@@ -536,8 +556,8 @@ export const BoxArrowRight02 = styled.div`
     }
 
     @media(max-width: 600px){
-        width: 67%;
-        height: 67%;
+        width: 1.5rem;
+        height: 1.5rem;
         margin-left: 0;
     }
 
