@@ -728,11 +728,12 @@ export const BoxPoltrona = styled.div`
         margin-right:2.3rem;
     }
 
-    @media(max-width:320px){
-        width: 68%;
-        height: 68%;
+    @media(max-width:375px){
+        width: 69.5%;
+        height: 69.5%;
+        margin-right:2.7em;
     }
    
-    }
+  }
    
 `;

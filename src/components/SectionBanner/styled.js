@@ -583,8 +583,13 @@ export const BoxRigth = styled.div`
     }
 
     @media(max-width:414px){
-        width:17rem;
-        height:17rem;   
+        width:18rem;
+        height:18rem;   
+    }
+    
+    @media(max-width:375px){
+        width:17.5rem;
+        height:17.5rem;   
     }
 }
 

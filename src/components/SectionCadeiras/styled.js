@@ -570,15 +570,15 @@ export const BoxArrowRight02 = styled.div`
         margin-left: 0;
     }
 
-    @media(max-width: 412px){
-        width: 70%;
-        height: 70%;
+    @media(max-width: 414px){
+        width: 1.5rem;
+        height: 1.5rem;
         margin-left: 0;
     }
 
     @media(max-width: 375px){
-        width: 70%;
-        height: 70%;
+        width: 1.5rem;
+        height: 1.5rem;
         margin-left: 0;
     }
 
