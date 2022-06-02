@@ -32,7 +32,6 @@ export const Banner = styled.section`
 
     @media(max-width:414px){
         height: auto;
-        margin-top: 1rem;
         background-image:none;
         background-color: #3E3E3E;
     }
@@ -80,7 +79,7 @@ export const BoxLeft = styled.div`
     @media(max-width:414px){
         display: block;
         margin-left: 0rem;
-        margin-top: 0.5rem;
+        margin-top: 7rem;
     }
 
 `;
@@ -372,7 +371,7 @@ export const Colors = styled.form`
     @media(max-width:414px){
         width: 1rem;
         height: 1rem;
-        margin: 0 0.3rem
+        margin: 0 0.3rem;
     }
 }
 
@@ -433,6 +432,12 @@ export const BoxPaint = styled.div`
         width: 14px;
         height: 14px;
     }
+
+    @media(max-width:414px){
+        width: 16px;
+        height: 16px;
+        margin-right:1rem ;
+    }
     
     .color{
         width: 100%;
@@ -471,6 +476,11 @@ export const BoxPaint = styled.div`
     @media(max-width:600px){
         width: 7.5px;
         height: 7.5px;
+    }
+
+    @media(max-width:414px){
+        width: 11px;
+        height: 11px;
     }
 
 }  
@@ -570,6 +580,11 @@ export const BoxRigth = styled.div`
     @media(max-width:600px){
         width:15rem;
         height:15rem;   
+    }
+
+    @media(max-width:414px){
+        width:17rem;
+        height:17rem;   
     }
 }
 

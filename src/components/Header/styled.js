@@ -89,7 +89,7 @@ export const MenuToggleCloseContainer = styled.div`
        display: flex;
        right: 1.2rem;
        align-items: center;
-       position: absolute;
+       position:fixed;
        overflow: hidden;
     }
 
@@ -153,8 +153,8 @@ export const MenuOptions = styled.ul`
        background-color: rgba(68, 92, 128, 1);
        top: 0;
        overflow: hidden;
-       height: 100vh;
-       width: 100vw;
+       height: 100%;
+       width: 100%;
        padding: 0;
        font-size: 1.5rem;
        
@@ -295,6 +295,7 @@ export const BoxRigth = styled.article`
        flex-direction:column;
        align-items: center;
        height: auto;
+       margin-top:3rem;
     }
     
 `;
@@ -619,6 +620,12 @@ export const Paint = styled.div`
         margin-left: 7px;
     }
 
+    @media(max-width:414px){
+        width: 16px;
+        height: 16px;
+        margin-left: 8px;
+    }
+
     .paint{
         width: 100%;
         height: 100%;
@@ -655,6 +662,11 @@ export const Paint = styled.div`
         width: 7px;
         height: 7px;
     }
+
+    @media(max-width:414px){
+        width: 11px;
+        height: 11px;
+    }
 } 
 
 `;
@@ -668,7 +680,6 @@ export const BoxPoltrona = styled.div`
 
     @media(max-width:414px){
         display: flex;
-        align-items: center;
         justify-content: center;
         margin-right:0;
         margin-top: 0.5rem;
@@ -712,8 +723,9 @@ export const BoxPoltrona = styled.div`
     }
 
     @media(max-width:414px){
-        width: 60.5%;
-        height: 60.5%;
+        width: 65.5%;
+        height: 65.5%;
+        margin-right:2.3rem;
     }
 
     @media(max-width:320px){

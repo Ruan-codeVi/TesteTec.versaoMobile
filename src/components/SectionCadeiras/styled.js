@@ -35,8 +35,8 @@ export const Section = styled.section`
     }
 
     @media(max-width: 414px){
-        margin-top: 19rem;
-        height: 40rem;
+        margin-top: 22rem;
+        height: 42rem;
         width: 100%;
     }
 `;
@@ -86,7 +86,7 @@ export const Wrapper = styled.div`
 
     @media(max-width: 414px){
         background-color: orange;
-        height: 30rem;
+        height: 33rem;
         flex-direction: column;
         margin-top: 8rem; 
         align-items: center;
@@ -438,6 +438,13 @@ export const BoxImg = styled.div`
     @media(max-width: 600px){
         width:11.5rem;
         height:13rem;   
+        margin-right:0.5rem;
+          
+    }
+
+    @media(max-width: 414px){
+        width:8.1rem;
+        height:10.5rem;   
         margin-right:0.5rem;
           
     }
