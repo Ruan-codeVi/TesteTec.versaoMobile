@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 
 export const Container = styled.footer`
-  background-color: yellowgreen;
   height: 723px;
   width: 100%;
   position: relative;
@@ -47,7 +46,6 @@ export const BoxTitle = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  background-color: pink;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -59,7 +57,6 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h1`
-  background-color: antiquewhite;
   font-size: 48px;
   font-weight: 500;
   margin-top: 118px;
@@ -78,7 +75,6 @@ export const Title = styled.h1`
 
 
 export const BoxUp = styled.div`
-  background-color: black;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -91,8 +87,6 @@ export const BoxUp = styled.div`
 `;
 
 export const BoxWrapper = styled.div`
-    /* background-color: rgba(255, 255, 255, 1); */
-  background-color: brown;
   background: ${(props) => props.background};
   display: flex;
   align-items: center;
@@ -171,7 +165,6 @@ export const BoxElement = styled.div`
    
     img{
         margin-left: 36px;
-        background-color: blue;
         width: 70px;
         height: 70px;
         
@@ -202,7 +195,6 @@ export const BoxElement = styled.div`
 `;
 
 export const BoxInfos = styled.div`
-  background-color: orange;
   width: auto;
   margin-left: 25px;
   color: rgba(62, 62, 62, 1);
@@ -268,7 +260,6 @@ export const Description = styled.p`
 `;
 
 export const BoxDown = styled.div`
-  background-color: blueviolet;
   margin-top: 31px;
   display: flex;
   justify-content: space-evenly;

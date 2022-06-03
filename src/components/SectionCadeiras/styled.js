@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 
 export const Section = styled.section`
-  background-color: red;
   display: flex;
   position: relative;
   width: 100%;
@@ -42,7 +41,6 @@ export const Section = styled.section`
 `;
 
 export const Wrapper = styled.div`
-  background-color: blueviolet;
   display: flex;
   width: 100%;
   height: 514.12px;
@@ -53,7 +51,6 @@ export const Wrapper = styled.div`
       height: 40px;
     } 
 
-    /* Reponsive Componente Wrapper */
     @media(max-width: 1024px){
         width: 100%;
         height: 25.3rem;
@@ -85,7 +82,6 @@ export const Wrapper = styled.div`
     }
 
     @media(max-width: 414px){
-        background-color: orange;
         height: 33rem;
         flex-direction: column;
         margin-top: 8rem; 
@@ -95,11 +91,10 @@ export const Wrapper = styled.div`
 `;
 
 export const BoxInfos = styled.div`
-  background-color: pink;
   width: auto;
   margin-left: 84px;
 
-    /* Reponsive Componente BoxInfos */
+
     @media(max-width: 1024px){
        margin-left: 2.5rem;
     }
@@ -137,7 +132,6 @@ export const BoxInfos = styled.div`
 `;
 
 export const BoxTitle = styled.div`
-  background-color: aquamarine;
   margin-bottom: 44px;
   width: 230px;
 
@@ -159,7 +153,7 @@ export const BoxTitle = styled.div`
     }
 
     @media(max-width: 414px){
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
     }
 
 `;
@@ -190,7 +184,6 @@ export const Title = styled.h1`
 `;
 
 export const SubTitle = styled.div`
-  background-color: brown;
   width: 250px;
 
     @media(max-width: 834px){
@@ -280,7 +273,6 @@ export const ArrowRight = styled.div`
 `;
 
 export const BoxPolt = styled.div`
-  background-color: green;
   width: 830px;
   margin-left:60px;
 
@@ -328,7 +320,6 @@ export const ContainerChair = styled.div`
   height: 100%;
   transition: 0.2s linear;
   margin-top:15px;
-  /* background-color:blue; */
   
 
     :hover{
@@ -449,10 +440,10 @@ export const BoxImg = styled.div`
           
     }
 }
+
 `;
 
 export const BoxInfosChair = styled.div`
-  background-color: greenyellow;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -470,7 +461,6 @@ export const InfoComp = styled.span`
   font-size: 21.55px;
   color: rgba(62, 62, 62, 1);
   margin-bottom: 20.74px;
-  background: black;
   width: 110px;
 
     @media(max-width: 1024px){
@@ -518,7 +508,6 @@ export const BoxArrowRight02 = styled.div`
     @media(max-width: 600px){
         display:flex;
         justify-content:center ;
-        background-color:blanchedalmond ;
         margin-top:0;
         margin-left:0rem;
 
@@ -527,6 +516,7 @@ export const BoxArrowRight02 = styled.div`
         transform: rotate(180deg);
         margin-right:0.7rem;
       }
+      
     }
   
     
@@ -584,7 +574,6 @@ export const BoxArrowRight02 = styled.div`
 
     @media(max-width: 320px){
         margin-right: 20px;
-        background-color: brown;
         width: 50%;
         height: 50%;
         margin-left: 0;

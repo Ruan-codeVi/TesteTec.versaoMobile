@@ -7,7 +7,6 @@ export const Banner = styled.section`
     background-image: url(${BannerFundo});
     background-repeat: no-repeat;
     height: 620.01px;
-    background-color: pink;
 
    
     @media(max-width:1024px){
@@ -50,7 +49,6 @@ export const ContainerBanner = styled.div`
 `;
 
 export const BoxLeft = styled.div`
-    background-color: salmon;
     margin-left: 80px;
     margin-top: 63.01px;
     color: rgba(255, 255, 255, 1);
@@ -216,8 +214,6 @@ export const DetailsBox = styled.div`
 export const Price = styled.div`
     display: flex;
     flex-direction: column;
-    background-color: blue;
-
 `;
 
 export const OldPrice = styled.span`
@@ -295,7 +291,6 @@ export const SelectionColor = styled.div`
     flex-direction: column;
     width: 96px;
     margin-left: 90px;
-    background-color: blueviolet;
 
     @media(max-width:834px){
         margin-left: 6.3rem;
@@ -323,7 +318,6 @@ export const SelectionColor = styled.div`
 
 export const TextColor = styled.span`
     text-align: center;
-    background-color: brown;
     margin-bottom: 24.3px;
 
     @media(max-width:834px){
@@ -490,10 +484,8 @@ export const BoxPaint = styled.div`
 
 
 export const BoxRigth = styled.div`
-    
     margin-right: 100px;
     margin-top: 80px;
-    background-color: orange;
 
     
     @media(max-width:1024px){

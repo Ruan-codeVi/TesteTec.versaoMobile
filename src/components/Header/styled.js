@@ -50,7 +50,6 @@ export const Wrapper = styled.div`
 `;
 
 export const Navegation = styled.nav`
-    background-color: brown;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -67,7 +66,6 @@ export const MenuToggleContainer = styled.div`
 
    
     @media (max-width: 500px){
-       background-color: aqua;
        display: flex;
        right: 0.8rem;
        align-items: center;
@@ -104,7 +102,6 @@ export const MenuToggleicon = styled.img`
 `;
 
 export const MenuOptions = styled.ul`
-  background-color: beige;
   list-style: none;
   padding: 0 80px;
   overflow: hidden;
@@ -114,25 +111,21 @@ export const MenuOptions = styled.ul`
 
     @media (max-width: 1024px){
         font-size:1.3rem;
-        background-color: bisque;
         padding: 0 3.5rem;
     }
 
     @media (max-width: 834px){
         font-size:1rem;
-        background-color: bisque;
         padding: 0 2.9rem;
     }
 
     @media (max-width: 800px){
         font-size:1rem;
-        background-color: bisque;
         padding: 0 2.5rem;
     }
 
     @media (max-width: 600px){
         font-size:0.7rem;
-        background-color: bisque;
         padding: 0 0.4rem;
     }
 
@@ -238,7 +231,6 @@ export const Container = styled.div`
     justify-content:space-between;
     
     @media (max-width: 414px){
-        background-color: yellow;
         display: flex;
         flex-direction: column-reverse; 
         align-items: center;
@@ -248,7 +240,6 @@ export const Container = styled.div`
 `;
 
 export const BoxRigth = styled.article`
-    background-color: aqua;
     color: rgba(62, 62, 62, 1);
     margin-top: 40px;
     margin-left: 80px;
@@ -303,7 +294,6 @@ export const BoxRigth = styled.article`
 export const BoxTitle = styled.div`
     padding: 8.43px 0;
     width: 400px;
-    background-color: blue;
  
    
     @media(max-width: 1024px){
@@ -321,6 +311,11 @@ export const BoxTitle = styled.div`
 
     @media(max-width: 600px){
         width: 10rem; 
+    }
+
+    @media(max-width: 414px){
+        width: 10rem; 
+        margin-bottom:1rem ;
     }
 
     
@@ -354,9 +349,7 @@ export const TextPrimry = styled.h1`
 
 export const BoxSubTitle = styled.div`
      width: 404.37px;
-     background-color: orange;
     
- 
     @media(max-width:1024px){
         width: 21rem;
     }
@@ -379,6 +372,7 @@ export const BoxSubTitle = styled.div`
 
     @media(max-width:414px){
         width: 13.6rem;
+        margin-bottom:0.6rem;
     }
 
 `;
@@ -503,9 +497,8 @@ export const BoxLeft = styled.div`
 `;
 
 export const BoxPaints = styled.form`
-    background-color:yellowgreen;
     display:flex ;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left:2px;
     cursor: pointer;
 
@@ -543,22 +536,18 @@ export const BoxPaints = styled.form`
 
     @media(max-width:411px){
        margin-top: 1rem;
-       background-color: black;
     }
 
     @media(max-width:375px){
        margin-top: 1rem;
-       background-color: black;
     }
 
     @media(max-width:360px){
        margin-top: 1rem;
-       background-color: black;
     }
 
     @media(max-width:320px){
        margin-top: 1rem;
-       background-color: black;
     }
 `;
 
@@ -584,7 +573,6 @@ export const Paint = styled.div`
     border-radius: 50%;
     background-color:transparent;
     margin-left: 10px;
-    /* border:0.5px solid black; */
     
     :hover{
         border:1px solid black;
@@ -673,7 +661,6 @@ export const Paint = styled.div`
   
 
 export const BoxPoltrona = styled.div`
-    /* background-color: azure; */
     margin-right:80px;
     margin-top: 15px;
     
