@@ -1,6 +1,6 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/Ruan-codeVi/Clone-Netflix?color=black&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/Ruan-codeVi/Clone-Netflix?color=black&style=for-the-badge)
 
-##  Description
+#  Description
 Teste técnico de Front End. 
 
 ## Requisitos
@@ -17,7 +17,7 @@ Teste técnico de Front End.
 - Caso tenha tempo e queira impressionar, crie coisas extras como um carrinho utilizando ferramentas como redux e typescript.
 
 
-## Projeto
+# Projeto
 * Designer do projeto proposto. </br>
 
 ![Screen](/src/screens/EscreenProjeto.gif)
