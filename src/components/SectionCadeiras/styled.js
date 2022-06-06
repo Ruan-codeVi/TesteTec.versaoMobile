@@ -439,6 +439,26 @@ export const BoxImg = styled.div`
         margin-right:0.5rem;
           
     }
+
+    @media(max-width: 375px){
+        width:7.3rem;
+        height:10.5rem;   
+        margin-right:0.5rem;
+          
+    }
+    @media(max-width: 360px){
+        width:6.8rem;
+        height:10.5rem;   
+        margin-right:0.5rem;
+          
+    }
+
+    @media(max-width: 320px){
+        width:6.1rem;
+        height:10.5rem;   
+        margin-right:0.5rem;
+          
+    }
 }
 
 `;
