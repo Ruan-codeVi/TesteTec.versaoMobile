@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+![GitHub language count](https://img.shields.io/github/languages/count/Ruan-codeVi/Clone-Netflix?color=black&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/Ruan-codeVi/Clone-Netflix?color=black&style=for-the-badge)
+
+##  Description
+Teste tec de de frotn End
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
