@@ -18,7 +18,9 @@ Teste técnico de Front End.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Tela do Projeto
+## Projeto
+* Designer do projeto proposto.
+
 ![Screen](/src/screens/EscreenProjeto.gif)
 
 ## Link do desafio
