@@ -22,7 +22,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `yarn start`
 
-Executa o aplicativo no modo de desenvolvimento. 
+Executa o aplicativo no modo de desenvolvimento. </br>
 Abra http://localhost:3000 para visualizá-lo em seu navegador.
 
 Runs the app in the development mode.\
