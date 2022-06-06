@@ -1,7 +1,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/Ruan-codeVi/Clone-Netflix?color=black&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/Ruan-codeVi/Clone-Netflix?color=black&style=for-the-badge)
 
 ##  Description
-Teste técnico de front End. 
+Teste técnico de Front End. 
 
 ## Requisitos
 - Componentização e organização.
@@ -21,6 +21,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ### `yarn start`
+
+Executa o aplicativo no modo de desenvolvimento. 
+Abra http://localhost:3000 para visualizá-lo em seu navegador.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
