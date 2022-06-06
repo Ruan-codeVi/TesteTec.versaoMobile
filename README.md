@@ -11,10 +11,10 @@ Teste técnico de front End.
 - Mockar as infos
 
 ## Extras
--Micro interações e animações
+- Micro interações e animações
 
 ## Bônus
-- Caso tenha tempo e queira impressionar, crie coisas extras como um carrinho utilizando ferramentas como redux e typescript.
+- Caso tenha tempo e queira impressionar, </br>crie coisas extras como um carrinho utilizando ferramentas como redux e typescript.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
