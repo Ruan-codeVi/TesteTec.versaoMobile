@@ -18,7 +18,8 @@ Teste técnico de Front End.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
+## Link do desafio
+https://www.figma.com/file/K0OzjjWrnFVr11FNxwGbsS/Fantastic-Furniture?node-id=0%3A1
 
 ### `yarn start`
 
