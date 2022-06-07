@@ -51,8 +51,8 @@ return (
                         <Slider ref={sliderRef}  slidesToShow={3} arrows={false}>
                             {produtos.map((item)=>{
                                  return(
-                                    <ContainerChair>
-                                         <BoxChair key={item.id}>
+                                    <ContainerChair key={item.id}>
+                                         <BoxChair>
                                              <BoxImg>
                                                     <img src={item.img} alt={item.nome} />
                                              </BoxImg>

@@ -222,19 +222,24 @@ export const OldPrice = styled.span`
     text-decoration: line-through;
 
     @media(max-width:834px){
-        font-size:1rem
+        font-size:1rem;
     }
 
     @media(max-width:768px){
-        font-size:0.9rem
+        font-size:0.9rem;
     }
 
     @media(max-width:600px){
-        font-size:0.8rem
+        font-size:0.8rem;
     }
 
     @media(max-width:414px){
-        font-size:1rem
+        font-size:1rem;
+    }
+
+    @media(max-width:320px){
+        font-size:1rem;
+        margin-top:0.8rem;
     }   
     
 `;
@@ -556,7 +561,7 @@ export const BoxRigth = styled.div`
 
     @media(max-width:834px){
         width:20rem;
-        height:20rem;   
+        height:20rem;  
     }
 
     @media(max-width:800px){
@@ -582,6 +587,12 @@ export const BoxRigth = styled.div`
     @media(max-width:375px){
         width:17.5rem;
         height:17.5rem;   
+    }
+
+    @media(max-width:375px){
+        width:14.5rem;
+        height:14.5rem;
+        margin-top:1rem;
     }
 }
 

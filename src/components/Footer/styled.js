@@ -145,7 +145,7 @@ export const BoxWrapper = styled.div`
     }
 
     @media(max-width:320px){
-        width :8.8rem;
+        width :8.5rem;
         height: 6rem;
     }
 `;

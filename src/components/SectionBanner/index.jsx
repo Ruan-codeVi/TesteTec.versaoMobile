@@ -63,12 +63,12 @@ function SectionBanner() {
                                         if(poltrona.id=== 12){
 
                                             return( 
-                                            <>
+                                            <div key={poltrona.id}>
                                              <OldPrice> R${poltrona.precoAntigo}</OldPrice>
                                              <ForCash key={poltrona.id}>R${poltrona.preco}</ForCash>
                                              <Payment>A vista</Payment> 
-                                            </>
-                                             )
+                                            </div>
+                                        );
                                         }
 
                                     return   produtos ? true : null  
