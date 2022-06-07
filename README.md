@@ -24,6 +24,15 @@ Teste técnico de Front End.
 
 ## Link do desafio
 https://www.figma.com/file/K0OzjjWrnFVr11FNxwGbsS/Fantastic-Furniture?node-id=0%3A1
+</br></br>
+
+# Código do projeto
+![Screen](/src/screens/header.png)
+![Screen](/src/screens/sectionCadeiras.png)
+![Screen](/src/screens/sectionBanner.png)
+![Screen](/src/screens/footer.png)
+
+
 
 ### `yarn start`
 
