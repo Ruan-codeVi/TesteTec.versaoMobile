@@ -368,7 +368,6 @@ export const ContainerChair = styled.div`
 
     @media(max-width: 320px){
         width: 5rem;
-        background-color:green ;
     }
       
 

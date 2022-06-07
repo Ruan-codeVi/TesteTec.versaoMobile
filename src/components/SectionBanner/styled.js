@@ -216,6 +216,11 @@ export const Price = styled.div`
     flex-direction: column;
 `;
 
+export const Infos = styled.div`
+    display: flex;
+    flex-direction: column;
+`;
+
 export const OldPrice = styled.span`
     font-weight: 400;
     font-size: 18px;
@@ -593,6 +598,13 @@ export const BoxRigth = styled.div`
         width:14.5rem;
         height:14.5rem;
         margin-top:1rem;
+    }
+
+    @media(max-width:320px){
+        width:14rem;
+        height:14rem;
+        margin-top:1rem;
+        background-color:green ;
     }
 }
 

@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { Banner, ContainerBanner, BoxLeft,
-    Title,Description,Logo, DetailsBox,Price, SelectionColor,
+    Title,Description,Logo, DetailsBox,Price,
+    Infos, SelectionColor,
     TextColor, Colors,BoxWrapperPaint,BoxPaint,
     OldPrice, ForCash,Payment ,BoxRigth } from './styled.js'
 
@@ -63,11 +64,11 @@ function SectionBanner() {
                                         if(poltrona.id=== 12){
 
                                             return( 
-                                            <div key={poltrona.id}>
-                                             <OldPrice> R${poltrona.precoAntigo}</OldPrice>
-                                             <ForCash key={poltrona.id}>R${poltrona.preco}</ForCash>
-                                             <Payment>A vista</Payment> 
-                                            </div>
+                                            <Infos key={poltrona.id}>
+                                                <OldPrice> R${poltrona.precoAntigo}</OldPrice>
+                                                <ForCash key={poltrona.id}>R${poltrona.preco}</ForCash>
+                                                <Payment>A vista</Payment> 
+                                            </Infos>
                                         );
                                         }
 
