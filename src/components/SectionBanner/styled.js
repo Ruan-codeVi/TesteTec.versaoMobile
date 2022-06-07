@@ -604,7 +604,6 @@ export const BoxRigth = styled.div`
         width:14rem;
         height:14rem;
         margin-top:1rem;
-        background-color:green ;
     }
 }
 
