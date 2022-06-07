@@ -369,22 +369,6 @@ export const ContainerChair = styled.div`
     @media(max-width: 320px){
         width: 5rem;
     }
-      
-
-    @media(max-width: 1024px){
-        width: 75%;
-        height: 45%;
-    }
-
-    @media(max-width: 768px){
-        width: 70%;
-        height: 40%;
-    }
-
-    @media(max-width: 600px){
-        width: 70%;
-        height: 50%;
-    }
      
 `;
 
@@ -454,9 +438,9 @@ export const BoxImg = styled.div`
     }
 
     @media(max-width: 320px){
-        width:6.1rem;
+        width:6rem;
         height:10.5rem;   
-        margin-right:0.5rem;
+        margin-right:0.2rem;
           
     }
 }
