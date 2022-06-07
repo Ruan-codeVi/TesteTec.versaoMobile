@@ -28,8 +28,11 @@ https://www.figma.com/file/K0OzjjWrnFVr11FNxwGbsS/Fantastic-Furniture?node-id=0%
 
 # Código do projeto
 ![Screen](/src/screens/header.png)
+</br></br><hr>
 ![Screen](/src/screens/sectionCadeiras.png)
+</br></br><hr>
 ![Screen](/src/screens/sectionBanner.png)
+</br></br><hr>
 ![Screen](/src/screens/footer.png)
 
 
