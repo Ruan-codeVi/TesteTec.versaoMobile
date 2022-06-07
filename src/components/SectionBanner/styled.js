@@ -555,8 +555,8 @@ export const BoxRigth = styled.div`
     }
 
     @media(max-width:834px){
-        width:21rem;
-        height:21rem;   
+        width:20rem;
+        height:20rem;   
     }
 
     @media(max-width:800px){
