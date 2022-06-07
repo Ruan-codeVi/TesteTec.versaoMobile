@@ -1,6 +1,6 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/Ruan-codeVi/Clone-Netflix?color=black&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/Ruan-codeVi/Clone-Netflix?color=black&style=for-the-badge)
 
-##  Description
+#  Description
 Teste técnico de Front End. 
 
 ## Requisitos
@@ -16,10 +16,23 @@ Teste técnico de Front End.
 ## Bônus
 - Caso tenha tempo e queira impressionar, crie coisas extras como um carrinho utilizando ferramentas como redux e typescript.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Projeto
+* Designer do projeto proposto. </br>
+
+![Screen](/src/screens/EscreenProjeto.gif)
 
 ## Link do desafio
 https://www.figma.com/file/K0OzjjWrnFVr11FNxwGbsS/Fantastic-Furniture?node-id=0%3A1
+</br></br>
+
+# Código do projeto
+![Screen](/src/screens/header.png)
+![Screen](/src/screens/sectionCadeiras.png)
+![Screen](/src/screens/sectionBanner.png)
+![Screen](/src/screens/footer.png)
+
+
 
 ### `yarn start`
 
