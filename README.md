@@ -37,7 +37,7 @@ https://www.figma.com/file/K0OzjjWrnFVr11FNxwGbsS/Fantastic-Furniture?node-id=0%
 
 
 # Projeto em execução
-</br>
+
 ![Screen](/src/screens/projeto.gif)
 
 ### `yarn start`
