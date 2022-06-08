@@ -38,7 +38,7 @@ https://www.figma.com/file/K0OzjjWrnFVr11FNxwGbsS/Fantastic-Furniture?node-id=0%
 # Link do projeto
 https://netlify-thinks-ruan-codevi-is-great.netlify.app/
 
-## Projeto em execução
+## Projeto em execução - Desktop
 
 ![Screen](/src/screens/projeto.gif)</br></br>
 
