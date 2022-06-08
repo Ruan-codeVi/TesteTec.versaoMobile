@@ -42,6 +42,7 @@ export const Section = styled.section`
 
 export const Wrapper = styled.div`
   display: flex;
+  justify-content:center;
   width: 100%;
   height: 514.12px;
   margin-top: 235.77px;
@@ -82,6 +83,13 @@ export const Wrapper = styled.div`
     }
 
     @media(max-width: 414px){
+        height: 33rem;
+        flex-direction: column;
+        margin-top: 8rem; 
+        align-items: center;
+    }
+
+    @media(max-width: 320px){
         height: 33rem;
         flex-direction: column;
         margin-top: 8rem; 
@@ -307,7 +315,7 @@ export const BoxPolt = styled.div`
 
     @media(max-width: 320px){
         flex-direction:column;
-        width: 100%;
+        width: 90%;
     }  
 `;
 
@@ -367,7 +375,7 @@ export const ContainerChair = styled.div`
     }
 
     @media(max-width: 320px){
-        width: 5rem;
+        width: 4rem;
     }
      
 `;
@@ -438,7 +446,7 @@ export const BoxImg = styled.div`
     }
 
     @media(max-width: 320px){
-        width:6rem;
+        width:5.3rem;
         height:10.5rem;   
         margin-right:0.2rem;
           
@@ -527,15 +535,11 @@ export const BoxArrowRight02 = styled.div`
 
     @media(max-width: 320px){
         margin-top: 0.7rem;
-        margin-left: 0;
-        display: flex;
+        margin-left: 1.5rem;
         height: auto;
         width: auto;
 
-    img:first-child{
-        display: block;
-        transform: rotate(180deg);
-    }
+    
 }
 
     img{
@@ -578,8 +582,8 @@ export const BoxArrowRight02 = styled.div`
 
     @media(max-width: 320px){
         margin-right: 20px;
-        width: 50%;
-        height: 50%;
+        width: 1.5rem;
+        height: 1.5rem;
         margin-left: 0;
     }
 }

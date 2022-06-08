@@ -30,7 +30,7 @@ export const Banner = styled.section`
     }
 
     @media(max-width:414px){
-        height: auto;
+        height: 100%;
         background-image:none;
         background-color: #3E3E3E;
     }
