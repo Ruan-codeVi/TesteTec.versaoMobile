@@ -40,7 +40,7 @@ https://netlify-thinks-ruan-codevi-is-great.netlify.app/
 
 ## Projeto em execução
 
-![Screen](/src/screens/projeto.gif)
+![Screen](/src/screens/projeto.gif)</br></br>
 
 # Responsividade
 ### 1024px
