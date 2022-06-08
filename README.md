@@ -37,12 +37,13 @@ https://www.figma.com/file/K0OzjjWrnFVr11FNxwGbsS/Fantastic-Furniture?node-id=0%
 
 # Deploy do projeto:
 https://netlify-thinks-ruan-codevi-is-great.netlify.app/
+</br></br>
 
-## Projeto em execução - Desktop
+# Projeto em execução - Desktop
 
 ![Screen](/src/screens/projeto.gif)</br></br>
 
-# Responsividade
+## Responsividade
 ### 1024px
 ![Screen](/src/screens/1024px.gif)
 
