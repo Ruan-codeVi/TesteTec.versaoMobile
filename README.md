@@ -43,6 +43,8 @@ https://netlify-thinks-ruan-codevi-is-great.netlify.app/
 ![Screen](/src/screens/projeto.gif)
 
 # Responsividade
+### 1024px
+![Screen](/src/screens/1024px.gif)
 
 ### `yarn start`
 
