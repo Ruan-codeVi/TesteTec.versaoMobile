@@ -60,16 +60,6 @@ https://netlify-thinks-ruan-codevi-is-great.netlify.app/
 ![Screen](/src/screens/360px.gif)
 
 
-### `yarn start`
-
-Executa o aplicativo no modo de desenvolvimento. </br>
-Abra http://localhost:3000 para visualizá-lo em seu navegador.
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 
 
