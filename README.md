@@ -46,6 +46,19 @@ https://netlify-thinks-ruan-codevi-is-great.netlify.app/
 ### 1024px
 ![Screen](/src/screens/1024px.gif)
 
+### 834px
+![Screen](/src/screens/834px.gif)
+
+### 768px
+![Screen](/src/screens/768px.gif)
+
+### 414px
+![Screen](/src/screens/414px.gif)
+
+### 360px
+![Screen](/src/screens/360px.gif)
+
+
 ### `yarn start`
 
 Executa o aplicativo no modo de desenvolvimento. </br>
