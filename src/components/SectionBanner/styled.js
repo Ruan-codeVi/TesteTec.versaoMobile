@@ -163,6 +163,13 @@ export const Description = styled.p`
         height: auto;
     }
 
+    @media(max-width:320px){
+        font-size: 0.8rem;
+        margin-bottom: 0.8rem;
+        width: auto;
+        height: auto;
+    }
+
 `;
 
 export const Logo = styled.div`

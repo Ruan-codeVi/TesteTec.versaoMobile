@@ -16,7 +16,8 @@ export const HeaderCompon = styled.header`
     
     @media (max-width: 414px){
        background-repeat: repeat-y;
-    }  
+    }
+
 `;
 
 export const Wrapper = styled.div`
@@ -30,10 +31,10 @@ export const Wrapper = styled.div`
     }
 
     @media (max-width: 834px){
-       height:22rem
+       height:22rem;
     }
     @media (max-width: 800px){
-       height:21.1rem
+       height:21.1rem;
     }
 
     @media (max-width: 768px){
@@ -41,12 +42,13 @@ export const Wrapper = styled.div`
     }
 
     @media (max-width: 600px){
-       height:15.7rem
+       height:15.7rem;
     }  
 
     @media (max-width: 414px){
-       height:14.2rem
-    }  
+       height:14.2rem;
+    }
+  
 `;
 
 export const Navegation = styled.nav`
@@ -287,8 +289,7 @@ export const BoxRigth = styled.article`
        align-items: center;
        height: auto;
        margin-top:3rem;
-    }
-    
+    }    
 `;
 
 export const BoxTitle = styled.div`
@@ -720,6 +721,7 @@ export const BoxPoltrona = styled.div`
         height: 69.5%;
         margin-right:2.7em;
     }
+
    
   }
    

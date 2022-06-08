@@ -54,6 +54,7 @@ export const Wrapper = styled.div`
         flex-direction: row;
         justify-content: center;
     }
+
 `;
 
 export const Title = styled.h1`
@@ -145,7 +146,7 @@ export const BoxWrapper = styled.div`
     }
 
     @media(max-width:320px){
-        width :8.3rem;
+        width :8.1rem;
         height: 6.5rem;
     }
 `;

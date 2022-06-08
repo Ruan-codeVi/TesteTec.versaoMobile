@@ -211,7 +211,7 @@ export const SubTitle = styled.div`
     }
 
     @media(max-width: 320px){
-        width: 18.7rem;
+        width: 18.3rem;
     }     
 `;
 
@@ -225,6 +225,10 @@ export const Description = styled.p`
 
     @media(max-width: 600px){
        font-size: 0.9rem;
+    }
+
+    @media(max-width: 320px){
+       font-size: 0.7rem;
     }    
 `;
 
