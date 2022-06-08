@@ -18,11 +18,11 @@ Teste técnico de Front End.
 
 
 # Projeto
-* Designer do projeto proposto. </br>
+* Designer do projeto proposto. </br></br>
 
 ![Screen](/src/screens/EscreenProjeto.gif)
 
-## Link do desafio
+### Link do desafio
 https://www.figma.com/file/K0OzjjWrnFVr11FNxwGbsS/Fantastic-Furniture?node-id=0%3A1
 </br></br>
 
