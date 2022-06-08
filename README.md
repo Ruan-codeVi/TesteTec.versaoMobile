@@ -42,6 +42,8 @@ https://netlify-thinks-ruan-codevi-is-great.netlify.app/
 
 ![Screen](/src/screens/projeto.gif)
 
+# Responsividade
+
 ### `yarn start`
 
 Executa o aplicativo no modo de desenvolvimento. </br>
